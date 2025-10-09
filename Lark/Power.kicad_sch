@@ -1,0 +1,16 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8014f41c-5b57-4783-ab5d-8211590c6dce")
+	(paper "A4")
+	(title_block
+		(title "Lark Print Engine")
+		(date "2025-10-08")
+		(rev "01.00.01")
+		(comment 1 "Thermal Print Engine")
+		(comment 2 "Designer: HamSlices")
+		(comment 3 "The Lark Project")
+	)
+	(lib_symbols)
+)

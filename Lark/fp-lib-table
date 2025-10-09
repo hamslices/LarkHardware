@@ -1,0 +1,11 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Stackpole")(type "KiCad")(uri "C:/Users/Matt/Documents/GitHub/LarkHardware/lib/Stackpole.pretty")(options "")(descr ""))
+  (lib (name "Murata Electronics")(type "KiCad")(uri "C:/Users/Matt/Documents/GitHub/LarkHardware/lib/Murata Electronics.pretty")(options "")(descr ""))
+  (lib (name "Microchip")(type "KiCad")(uri "C:/Users/Matt/Documents/GitHub/LarkHardware/lib/Microchip.pretty")(options "")(descr ""))
+  (lib (name "onsemi")(type "KiCad")(uri "C:/Users/Matt/Documents/GitHub/LarkHardware/lib/onsemi.pretty")(options "")(descr ""))
+  (lib (name "Allegro MicroSystems")(type "KiCad")(uri "C:/Users/Matt/Documents/GitHub/LarkHardware/lib/Allegro MicroSystems.pretty")(options "")(descr ""))
+  (lib (name "KEMET")(type "KiCad")(uri "C:/Users/Matt/Documents/GitHub/LarkHardware/lib/KEMET.pretty")(options "")(descr ""))
+  (lib (name "STMicroelectronics")(type "KiCad")(uri "C:/Users/Matt/Documents/GitHub/LarkHardware/lib/STMicroelectronics.pretty")(options "")(descr ""))
+  (lib (name "Molex")(type "KiCad")(uri "${LARKLIB_3D}/Molex.pretty")(options "")(descr ""))
+)

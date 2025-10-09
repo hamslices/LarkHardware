@@ -1,0 +1,430 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a351af57-4353-47da-9f45-7393de572768")
+	(paper "A4")
+	(title_block
+		(title "Lark Print Engine")
+		(date "2025-10-08")
+		(rev "01.00.01")
+		(comment 1 "Thermal Print Engine")
+		(comment 2 "Designer: HamSlices")
+		(comment 3 "The Lark Project")
+	)
+	(lib_symbols)
+	(sheet
+		(at 26.67 97.79)
+		(size 20.32 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 217 255 208 1.0000)
+		)
+		(uuid "4f6e6a31-1617-4951-bb1f-ffce39c005db")
+		(property "Sheetname" "Motor"
+			(at 26.67 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motor.kicad_sch"
+			(at 26.67 123.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MTA" bidirectional
+			(at 46.99 100.33 0)
+			(uuid "a531be03-f016-47bb-aa1b-7c12372fc791")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MT{slash}A" bidirectional
+			(at 46.99 102.87 0)
+			(uuid "43a17162-3250-4197-96ef-69ed4b7cd9e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MTB" bidirectional
+			(at 46.99 106.68 0)
+			(uuid "b2991f85-435f-491d-be73-64bf98464dc0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MT{slash}B" bidirectional
+			(at 46.99 109.22 0)
+			(uuid "0b16bfe5-643e-4508-b39f-c5f49dd0f125")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIR" input
+			(at 26.67 100.33 180)
+			(uuid "8f5d210d-17d6-41c2-a781-c7d2eaee7259")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STEP" input
+			(at 26.67 102.87 180)
+			(uuid "fe9ec251-47e7-45d1-8bbb-ca445dfba18a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS1" input
+			(at 26.67 105.41 180)
+			(uuid "adb239a0-2b1b-4363-8adc-51eb8f7161a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS2" input
+			(at 26.67 107.95 180)
+			(uuid "a613ceee-cfe7-4392-8300-d5798fd3ecb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{slash}EN" input
+			(at 26.67 111.76 180)
+			(uuid "37ff3f1d-0c7c-4c02-b4f6-d1cb95b8c94f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{slash}RST" input
+			(at 26.67 114.3 180)
+			(uuid "1ae9d6f5-2ca1-49b5-9579-7e2a1ed5ca08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{slash}SLEEP" input
+			(at 26.67 116.84 180)
+			(uuid "affe6060-2c9e-44c5-8b68-2e698f0ccfd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VERF" input
+			(at 26.67 120.65 180)
+			(uuid "cd93f8a2-1579-4847-9c71-1dda284da1b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Lark"
+				(path "/a351af57-4353-47da-9f45-7393de572768"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 134.62)
+		(size 19.05 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 217 255 208 1.0000)
+		)
+		(uuid "9aa817d4-eb96-4675-9e22-be0e45d55bef")
+		(property "Sheetname" "USB"
+			(at 27.94 133.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 27.94 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D+" bidirectional
+			(at 46.99 137.16 0)
+			(uuid "48b99329-fe56-45f9-a665-abc28c053a72")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D-" bidirectional
+			(at 46.99 139.7 0)
+			(uuid "17ba33b5-a46c-4f6d-b8db-41ee01b1544d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Lark"
+				(path "/a351af57-4353-47da-9f45-7393de572768"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 66.04)
+		(size 25.4 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 217 255 208 1.0000)
+		)
+		(uuid "e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773")
+		(property "Sheetname" "Power"
+			(at 26.67 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 26.67 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Lark"
+				(path "/a351af57-4353-47da-9f45-7393de572768"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 20.32)
+		(size 24.13 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 217 255 208 1.0000)
+		)
+		(uuid "e3e99bd1-20bf-4506-a33a-c7e187c8429b")
+		(property "Sheetname" "Sensors"
+			(at 27.94 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors.kicad_sch"
+			(at 27.94 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MARK" output
+			(at 52.07 24.13 0)
+			(uuid "f153a685-6b49-4196-9b67-1ab06d1c3a8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PAPER" output
+			(at 52.07 27.94 0)
+			(uuid "5242e4d5-dd44-4e4b-84f9-dc3d21199c60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PHE_M" input
+			(at 27.94 22.86 180)
+			(uuid "9b9c5d60-5509-4ec9-bff6-f9ebef753fad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PHK_M" input
+			(at 27.94 25.4 180)
+			(uuid "0d76bc33-c982-459e-964b-389e1c0fb7b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PHE_P" input
+			(at 27.94 27.94 180)
+			(uuid "4078297f-0604-4e3a-bcfb-32f1232ed0d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PHK_P" input
+			(at 27.94 30.48 180)
+			(uuid "e22b16d1-29cc-4f3b-8565-691c15f22e73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HTMP" input
+			(at 27.94 35.56 180)
+			(uuid "0c63c9f7-e295-44f2-8b76-9b7c25c24b4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "H_TMP" output
+			(at 52.07 35.56 0)
+			(uuid "76ecd485-98bc-43f3-a7fc-5cb11bc6f315")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MTMP" input
+			(at 27.94 39.37 180)
+			(uuid "d0cf3792-e7a7-4df5-86f8-42e00f4e0d7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M_TMP" output
+			(at 52.07 39.37 0)
+			(uuid "6caf40c1-4e2f-42fd-b62d-b7f71cd4cebd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Lark"
+				(path "/a351af57-4353-47da-9f45-7393de572768"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
