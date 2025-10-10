@@ -1,0 +1,2519 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f81f4326-91f5-42d8-b6f4-7a0078d684df")
+	(paper "A4")
+	(title_block
+		(title "Lark Print Engine")
+		(date "2025-10-08")
+		(rev "01.00.01")
+		(comment 1 "Thermal Print Engine")
+		(comment 2 "Designer: HamSlices")
+		(comment 3 "The Lark Project")
+	)
+	(lib_symbols
+		(symbol "Stackpole:RAVF164DJT10K0"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RN"
+				(at -7.62 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10kΩ"
+				(at 5.08 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Stackpole:RAVF_164D"
+				(at 6.985 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.seielect.com/catalog/SEI-RAVF.pdf"
+				(at 0 -16.002 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10k Ohm ±5% 100mW Power Per Element Isolated 4 Resistor Network/Array ±200ppm/°C 1206 (3216 Metric), Convex, Long Side Terminals"
+				(at 0.254 -14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RAVF164DJT10K0"
+				(at 0.254 -18.542 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R network parallel topology isolated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RAVF164DJT10K0_0_1"
+				(rectangle
+					(start -6.35 -2.413)
+					(end 3.81 2.413)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -5.715 1.905)
+					(end -4.445 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 1.905) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -5.08 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.175 1.905)
+					(end -1.905 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.905) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 1.905)
+					(end 0.635 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.905 1.905)
+					(end 3.175 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.905) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RAVF164DJT10K0_1_1"
+				(pin passive line
+					(at -5.08 5.08 270)
+					(length 2.54)
+					(name "R1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 90)
+					(length 2.54)
+					(name "R1.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 5.08 270)
+					(length 2.54)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name "R2.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "R3.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "R3.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "R4.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "R4.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Stackpole:RAVF164DJT33R0"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RN"
+				(at -7.62 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "33Ω"
+				(at 5.08 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Stackpole:RAVF_164D"
+				(at 6.985 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.seielect.com/catalog/SEI-RAVF.pdf"
+				(at 0 -16.002 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "33 Ohm ±5% 100mW Power Per Element Isolated 4 Resistor Network/Array ±200ppm/°C 1206 (3216 Metric), Convex, Long Side Terminals"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RAVF164DJT33R0"
+				(at -0.254 -18.288 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R network parallel topology isolated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RAVF164DJT33R0_0_1"
+				(rectangle
+					(start -6.35 -2.413)
+					(end 3.81 2.413)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -5.715 1.905)
+					(end -4.445 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 1.905) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -5.08 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.175 1.905)
+					(end -1.905 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.905) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 1.905)
+					(end 0.635 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.905 1.905)
+					(end 3.175 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.905) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RAVF164DJT33R0_1_1"
+				(pin passive line
+					(at -5.08 5.08 270)
+					(length 2.54)
+					(name "R1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 90)
+					(length 2.54)
+					(name "R1.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 5.08 270)
+					(length 2.54)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name "R2.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "R3.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "R3.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "R4.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "R4.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Stackpole:Resistor"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Resistor"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Case" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Resistor_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Resistor_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 158.75 88.9)
+		(end 190.5 133.35)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1988c1d4-3b10-4443-9667-51a59f8d5457)
+	)
+	(rectangle
+		(start 111.76 49.53)
+		(end 153.67 86.36)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ec7217ca-0b29-4548-a693-aae73979615c)
+	)
+	(text "Series Termination"
+		(exclude_from_sim no)
+		(at 158.75 87.63 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "0251c5a9-af7d-420f-b317-385202cda9b2")
+	)
+	(text "Pull-up Resistors"
+		(exclude_from_sim no)
+		(at 112.014 48.006 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "0359430b-e063-49cf-a7a3-0718bd6e816e")
+	)
+	(junction
+		(at 120.65 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23324b2a-35aa-43fd-84c7-55ec9ab838d1")
+	)
+	(junction
+		(at 118.11 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28a085bf-4cba-4089-a876-9d2cf27b2707")
+	)
+	(junction
+		(at 144.78 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35b6c050-d1f8-49c0-b37e-3cf6b2a30cc0")
+	)
+	(junction
+		(at 137.16 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41a074a0-4152-459d-8b6e-bb16007f9d1c")
+	)
+	(junction
+		(at 125.73 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "600e0e18-2647-4ea5-89b3-d1d6a93aed23")
+	)
+	(junction
+		(at 118.11 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cdaa590-88a8-45f9-b9b3-14fde424d7fe")
+	)
+	(junction
+		(at 123.19 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84914098-175d-48e6-b8b0-87051cf59645")
+	)
+	(junction
+		(at 139.7 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85aaa7da-acf5-4efc-950a-e79fed126e68")
+	)
+	(junction
+		(at 142.24 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96b93d29-5414-47fb-9bc8-50e60a6353de")
+	)
+	(junction
+		(at 120.65 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfe380df-8524-488a-a62a-41441b65726e")
+	)
+	(junction
+		(at 123.19 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e773ee8e-7160-445a-a539-91cfa7bba8ce")
+	)
+	(junction
+		(at 139.7 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efd33c8e-190b-4efa-8af5-24f0311c667f")
+	)
+	(junction
+		(at 137.16 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffbcf096-d4ab-4676-97cd-8f54d7f92d13")
+	)
+	(no_connect
+		(at 142.24 80.01)
+		(uuid "cb1efac1-c015-4953-99b6-38aa6a07088c")
+	)
+	(wire
+		(pts
+			(xy 142.24 63.5) (xy 142.24 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04b58558-edca-4f90-9e2d-3168b654ca67")
+	)
+	(wire
+		(pts
+			(xy 139.7 111.76) (xy 168.91 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12c3a74b-a5dc-4a4b-b82c-2308e1f54c60")
+	)
+	(wire
+		(pts
+			(xy 120.65 96.52) (xy 168.91 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1567c934-1a0e-4a12-9fe3-02d4e75514a6")
+	)
+	(wire
+		(pts
+			(xy 120.65 63.5) (xy 123.19 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16669b5a-20d2-46a8-af0f-aa224da3dabf")
+	)
+	(wire
+		(pts
+			(xy 105.41 125.73) (xy 144.78 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18a82a22-119f-4b23-969f-1d706d0df648")
+	)
+	(wire
+		(pts
+			(xy 144.78 125.73) (xy 170.18 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f93336a-b09d-4cc0-aef0-a5b839a19313")
+	)
+	(wire
+		(pts
+			(xy 120.65 63.5) (xy 120.65 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b23435-f1af-4a67-89c9-6b55c78db60e")
+	)
+	(wire
+		(pts
+			(xy 105.41 111.76) (xy 139.7 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "296e9bce-f0b7-4fce-8785-b29691fe59de")
+	)
+	(wire
+		(pts
+			(xy 142.24 63.5) (xy 144.78 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a7bf9e4-bd23-45c5-a948-ad79378e5232")
+	)
+	(wire
+		(pts
+			(xy 179.07 96.52) (xy 209.55 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31244013-ff96-4c34-81f3-069b082f400e")
+	)
+	(wire
+		(pts
+			(xy 137.16 63.5) (xy 137.16 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "374a1f4e-2ca3-4715-aa2f-9f361b4cb554")
+	)
+	(wire
+		(pts
+			(xy 137.16 63.5) (xy 139.7 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fe033f6-9832-4b4e-b2a2-b4ef949ac216")
+	)
+	(wire
+		(pts
+			(xy 139.7 78.74) (xy 139.7 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4133678e-11ab-4009-b1e4-cb4185e9b081")
+	)
+	(wire
+		(pts
+			(xy 125.73 101.6) (xy 168.91 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41e77b0e-f78b-4ad4-89a3-81ecc33ae17d")
+	)
+	(wire
+		(pts
+			(xy 125.73 78.74) (xy 125.73 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "437f77d5-0c2e-4d76-b041-d29cb492910a")
+	)
+	(wire
+		(pts
+			(xy 105.41 109.22) (xy 137.16 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c1a1c6d-ee2d-4c23-a8a9-4da2b9881f4d")
+	)
+	(wire
+		(pts
+			(xy 179.07 114.3) (xy 209.55 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5134c9d2-2900-48ca-92be-ed8a0be0350a")
+	)
+	(wire
+		(pts
+			(xy 137.16 78.74) (xy 137.16 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "530ebc3d-e28e-4c86-ad62-55c8fe32ffbe")
+	)
+	(wire
+		(pts
+			(xy 125.73 63.5) (xy 125.73 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61e3b520-fb16-4944-bb96-0aabcb87cf23")
+	)
+	(wire
+		(pts
+			(xy 137.16 109.22) (xy 168.91 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "711956f1-fa6b-40e2-9e2c-6915bb70c1ff")
+	)
+	(wire
+		(pts
+			(xy 139.7 63.5) (xy 142.24 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "734145f7-2e2e-4d9b-80ba-7776cd30c0d6")
+	)
+	(wire
+		(pts
+			(xy 179.07 101.6) (xy 209.55 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c2def36-8fd5-4e2d-8823-8f2c3d56a595")
+	)
+	(wire
+		(pts
+			(xy 118.11 93.98) (xy 168.91 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90d5939b-9659-4031-bde4-0dce72764d85")
+	)
+	(wire
+		(pts
+			(xy 120.65 78.74) (xy 120.65 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "919d5a0c-254d-405c-9263-6b41d760f940")
+	)
+	(wire
+		(pts
+			(xy 144.78 78.74) (xy 144.78 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "951e15cb-bc01-4e08-99bb-069d28606bbd")
+	)
+	(wire
+		(pts
+			(xy 105.41 96.52) (xy 120.65 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9abea0e2-bde2-45fb-bb78-a543c3debffb")
+	)
+	(wire
+		(pts
+			(xy 179.07 99.06) (xy 209.55 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f5a84d2-f794-4f43-bc50-774bd4ebe843")
+	)
+	(wire
+		(pts
+			(xy 139.7 68.58) (xy 139.7 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a727939f-2ed2-4558-b42c-94f8ff531e6c")
+	)
+	(wire
+		(pts
+			(xy 118.11 63.5) (xy 118.11 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a74b044b-cbe5-446b-a9bb-d2f09636ae40")
+	)
+	(wire
+		(pts
+			(xy 105.41 99.06) (xy 123.19 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaa26c6c-23db-46ac-b001-17955db8760b")
+	)
+	(wire
+		(pts
+			(xy 179.07 111.76) (xy 209.55 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1aef6cf-03ef-459c-ad01-16cfe8fcc0a8")
+	)
+	(wire
+		(pts
+			(xy 179.07 116.84) (xy 209.55 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b724dcf6-ed33-4431-87a2-6c28b4dbeaab")
+	)
+	(wire
+		(pts
+			(xy 105.41 101.6) (xy 125.73 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc05ed3a-62a0-4a3d-afa5-8e60ddcbc592")
+	)
+	(wire
+		(pts
+			(xy 142.24 80.01) (xy 142.24 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd501b03-c386-46b4-8bec-2935379744b1")
+	)
+	(wire
+		(pts
+			(xy 137.16 60.96) (xy 137.16 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be79e0f1-a418-490c-b15e-05c86e115198")
+	)
+	(wire
+		(pts
+			(xy 105.41 114.3) (xy 168.91 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c524065a-6eb6-45be-8c20-c13043bc055c")
+	)
+	(wire
+		(pts
+			(xy 123.19 99.06) (xy 168.91 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c705f03a-554b-42ff-8af3-391a7599dea5")
+	)
+	(wire
+		(pts
+			(xy 144.78 68.58) (xy 144.78 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb1cd678-c105-4a7e-a4d8-5d44a91023dd")
+	)
+	(wire
+		(pts
+			(xy 105.41 93.98) (xy 118.11 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce01150e-d579-41b2-857e-4caac7bffa44")
+	)
+	(wire
+		(pts
+			(xy 118.11 63.5) (xy 120.65 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce6aae56-367f-4266-969f-ced1e7896599")
+	)
+	(wire
+		(pts
+			(xy 179.07 109.22) (xy 209.55 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8e59a15-9768-4960-a88b-8e70deacb4c2")
+	)
+	(wire
+		(pts
+			(xy 123.19 63.5) (xy 125.73 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd064d98-fab8-420a-aded-db2da90b45af")
+	)
+	(wire
+		(pts
+			(xy 123.19 78.74) (xy 123.19 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e36220-aa40-46c7-8865-3b6db8cf76bc")
+	)
+	(wire
+		(pts
+			(xy 123.19 63.5) (xy 123.19 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e477632d-77d0-440a-b6c4-29b476275025")
+	)
+	(wire
+		(pts
+			(xy 105.41 116.84) (xy 168.91 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e59a4e39-785a-48a5-b93a-bf6c5edbbe0a")
+	)
+	(wire
+		(pts
+			(xy 177.8 125.73) (xy 209.55 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9fd7918-2d28-4c62-9bb6-65d3529ce83b")
+	)
+	(wire
+		(pts
+			(xy 118.11 78.74) (xy 118.11 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5e73bce-eac0-4a32-885e-a9f91c375f4a")
+	)
+	(wire
+		(pts
+			(xy 118.11 60.96) (xy 118.11 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9c02b26-6d3f-4692-af48-04961728ed30")
+	)
+	(wire
+		(pts
+			(xy 179.07 93.98) (xy 209.55 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb574746-58bd-4327-a988-173f2425aca5")
+	)
+	(hierarchical_label "H9"
+		(shape output)
+		(at 209.55 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03d70d41-eb2e-4fc0-8c42-f9247eb0c963")
+	)
+	(hierarchical_label "H8"
+		(shape output)
+		(at 209.55 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b41f871-c181-499c-8181-15b76776fa21")
+	)
+	(hierarchical_label "N5"
+		(shape input)
+		(at 105.41 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0fc78c32-3f06-4012-901c-5904e11c2f5f")
+	)
+	(hierarchical_label "H5"
+		(shape output)
+		(at 209.55 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0fff84f6-ec7d-4a20-ae54-404747157d68")
+	)
+	(hierarchical_label "N6"
+		(shape input)
+		(at 105.41 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1bc71056-456b-4313-82cd-5bdb7a144c11")
+	)
+	(hierarchical_label "H3"
+		(shape output)
+		(at 209.55 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d2f1237-d44c-46b3-9426-11875dd598a9")
+	)
+	(hierarchical_label "H6"
+		(shape output)
+		(at 209.55 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "301ec410-2e2e-4940-8749-e47145b342ad")
+	)
+	(hierarchical_label "H7"
+		(shape output)
+		(at 209.55 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37bc61cc-35eb-4682-9931-fe2dda1fe191")
+	)
+	(hierarchical_label "N4"
+		(shape input)
+		(at 105.41 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49bebad3-826e-4165-88c3-869404eb2216")
+	)
+	(hierarchical_label "N9"
+		(shape input)
+		(at 105.41 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4fc8847d-9bc0-4b30-b4f8-7412c0de4199")
+	)
+	(hierarchical_label "H1"
+		(shape output)
+		(at 209.55 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5565414a-457a-4eff-bc7e-fe6d68282d50")
+	)
+	(hierarchical_label "N1"
+		(shape input)
+		(at 105.41 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "786c6f81-fbdf-44ee-a130-104a5ef56518")
+	)
+	(hierarchical_label "N2"
+		(shape input)
+		(at 105.41 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4309c2b-0b03-4e4a-968a-6a74ef05143a")
+	)
+	(hierarchical_label "H2"
+		(shape output)
+		(at 209.55 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d21e2dd4-8aef-4e53-a125-163c2587a4ae")
+	)
+	(hierarchical_label "H4"
+		(shape output)
+		(at 209.55 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5a2e914-1d82-49c6-baa4-c40853fa86bc")
+	)
+	(hierarchical_label "N8"
+		(shape input)
+		(at 105.41 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6f5b998-ea4d-4823-ba59-09594fe86c41")
+	)
+	(hierarchical_label "N7"
+		(shape input)
+		(at 105.41 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f49490a5-846d-42c8-94ca-8c6da67da000")
+	)
+	(hierarchical_label "N3"
+		(shape input)
+		(at 105.41 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fcfdb4ea-5427-4903-bcdd-263860b2d501")
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 118.11 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "085a0856-911f-4be4-ae11-a93d2fdd508f")
+		(property "Reference" "#PWR083"
+			(at 118.11 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 118.11 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 118.11 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5186bb87-cbbf-4184-a94a-c370d0002877")
+		)
+		(instances
+			(project "Lark"
+				(path "/a351af57-4353-47da-9f45-7393de572768/6e291d34-e508-4d3b-a2e9-20acfef2b928/b7401ced-a663-484b-a6a1-a8142de0403d"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Stackpole:RAVF164DJT10K0")
+		(at 123.19 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11b0f858-b121-47da-902a-c871b4687f1e")
+		(property "Reference" "RN3"
+			(at 129.54 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 130.048 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Stackpole:RAVF_164D"
+			(at 130.175 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RAVF.pdf"
+			(at 123.19 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10k Ohm ±5% 100mW Power Per Element Isolated 4 Resistor Network/Array ±200ppm/°C 1206 (3216 Metric), Convex, Long Side Terminals"
+			(at 123.444 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RAVF164DJT10K0"
+			(at 123.444 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "a5d5795b-c4a9-4b44-a783-5f300680f4ef")
+		)
+		(pin "7"
+			(uuid "7ba6725c-5c40-4629-9c6b-769b7e42bc39")
+		)
+		(pin "3"
+			(uuid "6bf1ea16-d9ed-4b86-b764-e413fba5f83d")
+		)
+		(pin "4"
+			(uuid "c55492b5-344f-4063-b997-96d1b418655c")
+		)
+		(pin "1"
+			(uuid "c8537c19-a031-48c4-8b0f-4cd0d2ab37b2")
+		)
+		(pin "6"
+			(uuid "122f9d71-6cc3-4ea1-b5db-e4c5b29d74a5")
+		)
+		(pin "2"
+			(uuid "4aeefa04-c150-439c-a846-0c826ae0f3f6")
+		)
+		(pin "5"
+			(uuid "b1da6a5a-aa1e-43e6-9da1-7adfbf99f16d")
+		)
+		(instances
+			(project "Lark"
+				(path "/a351af57-4353-47da-9f45-7393de572768/6e291d34-e508-4d3b-a2e9-20acfef2b928/b7401ced-a663-484b-a6a1-a8142de0403d"
+					(reference "RN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Stackpole:RAVF164DJT33R0")
+		(at 173.99 114.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90096c0e-eb1d-4c89-a64c-06e5c801fb12")
+		(property "Reference" "RN1"
+			(at 173.99 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33Ω"
+			(at 173.99 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Stackpole:RAVF_164D"
+			(at 173.99 121.285 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RAVF.pdf"
+			(at 157.988 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "33 Ohm ±5% 100mW Power Per Element Isolated 4 Resistor Network/Array ±200ppm/°C 1206 (3216 Metric), Convex, Long Side Terminals"
+			(at 160.02 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RAVF164DJT33R0"
+			(at 155.702 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "f5f40813-6484-4da1-a491-40eca36eec21")
+		)
+		(pin "7"
+			(uuid "229974e3-71a6-4aae-bebf-676ddf85363f")
+		)
+		(pin "3"
+			(uuid "9dd12ebc-260e-4116-8a9e-d10dc17bbddf")
+		)
+		(pin "5"
+			(uuid "c1a1a579-d912-4c67-aa8c-1fc8c926a066")
+		)
+		(pin "2"
+			(uuid "826e99ff-d43b-4148-b0f5-5c23e4081700")
+		)
+		(pin "1"
+			(uuid "fb9d9948-6390-4f81-ab76-7354274a40ef")
+		)
+		(pin "6"
+			(uuid "4ee18d22-c7de-4fd0-9ad4-722a1ff79832")
+		)
+		(pin "8"
+			(uuid "86aa424a-38b8-4c99-8572-de40714b638f")
+		)
+		(instances
+			(project "Lark"
+				(path "/a351af57-4353-47da-9f45-7393de572768/6e291d34-e508-4d3b-a2e9-20acfef2b928/b7401ced-a663-484b-a6a1-a8142de0403d"
+					(reference "RN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Stackpole:RAVF164DJT10K0")
+		(at 142.24 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96843ea9-e097-4238-b346-0e646512e144")
+		(property "Reference" "RN2"
+			(at 148.59 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 149.098 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Stackpole:RAVF_164D"
+			(at 149.225 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RAVF.pdf"
+			(at 142.24 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10k Ohm ±5% 100mW Power Per Element Isolated 4 Resistor Network/Array ±200ppm/°C 1206 (3216 Metric), Convex, Long Side Terminals"
+			(at 142.494 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RAVF164DJT10K0"
+			(at 142.494 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "ab971e67-15da-4266-beef-74a0060e7187")
+		)
+		(pin "7"
+			(uuid "f1938db5-63d6-4b48-a209-09806ba23542")
+		)
+		(pin "3"
+			(uuid "e16c5d9d-1a0c-4183-80c3-db8b56a2fcda")
+		)
+		(pin "4"
+			(uuid "a94b84cc-21ad-4e4e-b5ce-b0e692d79764")
+		)
+		(pin "1"
+			(uuid "6f0a4bcd-baa7-481a-8701-dbebb4172add")
+		)
+		(pin "6"
+			(uuid "4dfad90b-88e6-4a69-8af7-e0f4a90d87eb")
+		)
+		(pin "2"
+			(uuid "565ffd8a-8951-4220-a9f8-7b8efa601b40")
+		)
+		(pin "5"
+			(uuid "b2b311f6-4448-4b83-8d9f-0635ea5b09f0")
+		)
+		(instances
+			(project "Lark"
+				(path "/a351af57-4353-47da-9f45-7393de572768/6e291d34-e508-4d3b-a2e9-20acfef2b928/b7401ced-a663-484b-a6a1-a8142de0403d"
+					(reference "RN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Stackpole:RAVF164DJT33R0")
+		(at 173.99 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a4fb05d-9c2e-46ef-ab8b-aadaa06d4a59")
+		(property "Reference" "RN4"
+			(at 173.99 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33Ω"
+			(at 173.99 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Stackpole:RAVF_164D"
+			(at 173.99 106.045 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RAVF.pdf"
+			(at 157.988 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "33 Ohm ±5% 100mW Power Per Element Isolated 4 Resistor Network/Array ±200ppm/°C 1206 (3216 Metric), Convex, Long Side Terminals"
+			(at 160.02 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RAVF164DJT33R0"
+			(at 155.702 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c83639b6-d5cc-4de5-b11f-15cfa7f068a9")
+		)
+		(pin "7"
+			(uuid "0eaf8a7d-57c1-4571-ada7-45c7a0bcbff2")
+		)
+		(pin "3"
+			(uuid "bdd87c65-e8cf-48f8-bc75-31092892e5fc")
+		)
+		(pin "5"
+			(uuid "64704413-ab2c-4110-8c2b-eb9dce57877c")
+		)
+		(pin "2"
+			(uuid "fe8e189c-df59-46dd-8964-0d591cc8cca9")
+		)
+		(pin "1"
+			(uuid "b644dabd-0c45-4c49-a109-e60e40e5c67c")
+		)
+		(pin "6"
+			(uuid "95658a23-1bfc-4efe-9242-b717fcd81df4")
+		)
+		(pin "8"
+			(uuid "c08af637-8a8c-45f8-b834-c2cab61e5fc3")
+		)
+		(instances
+			(project "Lark"
+				(path "/a351af57-4353-47da-9f45-7393de572768/6e291d34-e508-4d3b-a2e9-20acfef2b928/b7401ced-a663-484b-a6a1-a8142de0403d"
+					(reference "RN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Stackpole:Resistor")
+		(at 173.99 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "baf14d11-fc8b-407a-83ef-5097db0e37ac")
+		(property "Reference" "R31"
+			(at 171.704 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33Ω"
+			(at 171.958 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Stackpole:R_0603"
+			(at 173.736 126.746 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 173.99 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 173.99 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "1/10W"
+			(at 173.99 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0603"
+			(at 173.99 130.302 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT33R0"
+			(at 173.99 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04354213-cd06-4374-8f39-b29a2a1f8d27")
+		)
+		(pin "2"
+			(uuid "f6bbfc55-ebaa-4e65-ba3a-a5c5cc09eb73")
+		)
+		(instances
+			(project "Lark"
+				(path "/a351af57-4353-47da-9f45-7393de572768/6e291d34-e508-4d3b-a2e9-20acfef2b928/b7401ced-a663-484b-a6a1-a8142de0403d"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 137.16 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7fabbee-6039-4f3f-9911-328493b2517e")
+		(property "Reference" "#PWR084"
+			(at 137.16 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 137.16 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4eafac54-2387-40e7-9577-21a8478937fc")
+		)
+		(instances
+			(project "Lark"
+				(path "/a351af57-4353-47da-9f45-7393de572768/6e291d34-e508-4d3b-a2e9-20acfef2b928/b7401ced-a663-484b-a6a1-a8142de0403d"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

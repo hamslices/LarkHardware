@@ -13,9 +13,109 @@
 		(comment 3 "The Lark Project")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 205.74 129.54) (xy 213.36 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fa89dd9-617d-410a-a22a-832df087c8f2")
+	)
+	(wire
+		(pts
+			(xy 205.74 86.36) (xy 213.36 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2004686c-1bbb-4b22-9495-f88eaf99143f")
+	)
+	(wire
+		(pts
+			(xy 205.74 95.25) (xy 213.36 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "258e872e-f03d-4292-a012-b2b1b2317758")
+	)
+	(wire
+		(pts
+			(xy 205.74 88.9) (xy 213.36 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ee68769-172b-4370-9c37-c2754b20cbd0")
+	)
+	(wire
+		(pts
+			(xy 205.74 115.57) (xy 213.36 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eb89af0-a709-4741-bf6c-767bd84cd850")
+	)
+	(wire
+		(pts
+			(xy 205.74 124.46) (xy 213.36 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8735a900-e5cf-4c53-adb7-f07599cd24c4")
+	)
+	(wire
+		(pts
+			(xy 205.74 118.11) (xy 213.36 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ffb304-0d3c-452c-9d17-4a313e8ac847")
+	)
+	(wire
+		(pts
+			(xy 205.74 92.71) (xy 213.36 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a69036e6-3850-41a8-9267-28252b45aaa5")
+	)
+	(wire
+		(pts
+			(xy 205.74 132.08) (xy 213.36 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e64cc323-48f0-4f62-aa60-604cf171c334")
+	)
+	(wire
+		(pts
+			(xy 205.74 121.92) (xy 213.36 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9bf12a6-8a54-4681-871d-ceb0c667bb0f")
+	)
 	(sheet
-		(at 26.67 97.79)
-		(size 20.32 25.4)
+		(at 182.88 83.82)
+		(size 22.86 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -29,8 +129,8 @@
 			(color 217 255 208 1.0000)
 		)
 		(uuid "4f6e6a31-1617-4951-bb1f-ffce39c005db")
-		(property "Sheetname" "Motor"
-			(at 26.67 97.0784 0)
+		(property "Sheetname" "Motor Driver"
+			(at 182.88 83.1084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38,17 +138,18 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Motor.kicad_sch"
-			(at 26.67 123.7746 0)
+		(property "Sheetfile" "Motor_Driver.kicad_sch"
+			(at 182.88 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "MTA" bidirectional
-			(at 46.99 100.33 0)
+			(at 205.74 86.36 0)
 			(uuid "a531be03-f016-47bb-aa1b-7c12372fc791")
 			(effects
 				(font
@@ -58,7 +159,7 @@
 			)
 		)
 		(pin "MT{slash}A" bidirectional
-			(at 46.99 102.87 0)
+			(at 205.74 88.9 0)
 			(uuid "43a17162-3250-4197-96ef-69ed4b7cd9e9")
 			(effects
 				(font
@@ -68,7 +169,7 @@
 			)
 		)
 		(pin "MTB" bidirectional
-			(at 46.99 106.68 0)
+			(at 205.74 92.71 0)
 			(uuid "b2991f85-435f-491d-be73-64bf98464dc0")
 			(effects
 				(font
@@ -78,7 +179,7 @@
 			)
 		)
 		(pin "MT{slash}B" bidirectional
-			(at 46.99 109.22 0)
+			(at 205.74 95.25 0)
 			(uuid "0b16bfe5-643e-4508-b39f-c5f49dd0f125")
 			(effects
 				(font
@@ -88,7 +189,7 @@
 			)
 		)
 		(pin "DIR" input
-			(at 26.67 100.33 180)
+			(at 182.88 86.36 180)
 			(uuid "8f5d210d-17d6-41c2-a781-c7d2eaee7259")
 			(effects
 				(font
@@ -98,7 +199,7 @@
 			)
 		)
 		(pin "STEP" input
-			(at 26.67 102.87 180)
+			(at 182.88 88.9 180)
 			(uuid "fe9ec251-47e7-45d1-8bbb-ca445dfba18a")
 			(effects
 				(font
@@ -108,7 +209,7 @@
 			)
 		)
 		(pin "MS1" input
-			(at 26.67 105.41 180)
+			(at 182.88 91.44 180)
 			(uuid "adb239a0-2b1b-4363-8adc-51eb8f7161a7")
 			(effects
 				(font
@@ -118,7 +219,7 @@
 			)
 		)
 		(pin "MS2" input
-			(at 26.67 107.95 180)
+			(at 182.88 93.98 180)
 			(uuid "a613ceee-cfe7-4392-8300-d5798fd3ecb2")
 			(effects
 				(font
@@ -128,7 +229,7 @@
 			)
 		)
 		(pin "{slash}EN" input
-			(at 26.67 111.76 180)
+			(at 182.88 97.79 180)
 			(uuid "37ff3f1d-0c7c-4c02-b4f6-d1cb95b8c94f")
 			(effects
 				(font
@@ -138,7 +239,7 @@
 			)
 		)
 		(pin "{slash}RST" input
-			(at 26.67 114.3 180)
+			(at 182.88 100.33 180)
 			(uuid "1ae9d6f5-2ca1-49b5-9579-7e2a1ed5ca08")
 			(effects
 				(font
@@ -148,7 +249,7 @@
 			)
 		)
 		(pin "{slash}SLEEP" input
-			(at 26.67 116.84 180)
+			(at 182.88 102.87 180)
 			(uuid "affe6060-2c9e-44c5-8b68-2e698f0ccfd2")
 			(effects
 				(font
@@ -158,7 +259,7 @@
 			)
 		)
 		(pin "VERF" input
-			(at 26.67 120.65 180)
+			(at 182.88 106.68 180)
 			(uuid "cd93f8a2-1579-4847-9c71-1dda284da1b8")
 			(effects
 				(font
@@ -176,8 +277,261 @@
 		)
 	)
 	(sheet
-		(at 27.94 134.62)
-		(size 19.05 7.62)
+		(at 213.36 39.37)
+		(size 22.86 95.25)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 217 255 208 1.0000)
+		)
+		(uuid "6e291d34-e508-4d3b-a2e9-20acfef2b928")
+		(property "Sheetname" "FTP-68EMCL Connector"
+			(at 213.36 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FTP-68EMCL_Connector.kicad_sch"
+			(at 213.36 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "{slash}OE" input
+			(at 213.36 41.91 180)
+			(uuid "2b1cd576-0081-43cd-b74d-c32282e8d1bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK" input
+			(at 213.36 45.72 180)
+			(uuid "68c1cf84-ab5e-4ec4-a863-7f9d29c65b8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIN" input
+			(at 213.36 48.26 180)
+			(uuid "e1ee5169-2a8e-4d02-b8ef-0db90aacaf08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{slash}LAT" input
+			(at 213.36 50.8 180)
+			(uuid "3dcc67db-7b48-478d-b232-dd2c3e3eabee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{slash}STB1" input
+			(at 213.36 54.61 180)
+			(uuid "ce177147-adb8-4b9c-8057-e452037a72d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{slash}STB2" input
+			(at 213.36 57.15 180)
+			(uuid "d9b5d984-f8c3-4920-9cb1-8d722d72c6ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{slash}STB3" input
+			(at 213.36 59.69 180)
+			(uuid "4948f04b-07cd-4686-9546-30ee4eea1aaa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{slash}STB4" input
+			(at 213.36 62.23 180)
+			(uuid "d7a24061-af0e-4bc0-8038-62e913898808")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{slash}STB5" input
+			(at 213.36 64.77 180)
+			(uuid "f4833d65-efb4-4ad1-b537-56a0bede07fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{slash}STB6" input
+			(at 213.36 67.31 180)
+			(uuid "26f9d442-6024-4874-8213-014b8180ba26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MTA" bidirectional
+			(at 213.36 86.36 180)
+			(uuid "c1a23b39-8932-49ab-b710-bc2da722bb59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MT{slash}A" bidirectional
+			(at 213.36 88.9 180)
+			(uuid "6ab209c4-84ff-406e-8885-c79a82a1c3a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MTB" bidirectional
+			(at 213.36 92.71 180)
+			(uuid "df900690-5ece-4876-b8a0-9db674d2d2f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MT{slash}B" bidirectional
+			(at 213.36 95.25 180)
+			(uuid "4a90fb52-f964-4f24-b363-1d2d7bdd572e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PHK_P" output
+			(at 213.36 115.57 180)
+			(uuid "6982f267-8f5a-45f5-b42a-fb7819753949")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PHE_P" output
+			(at 213.36 118.11 180)
+			(uuid "4a2e27f7-f802-40cc-92f2-133ccfbdf09c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PHK_M" output
+			(at 213.36 121.92 180)
+			(uuid "22ff0a26-8cc3-4451-a557-9ad0106c6751")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PHE_M" output
+			(at 213.36 124.46 180)
+			(uuid "fa205ae5-8136-4e6b-b4d8-e4bc9451c9d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HTMP" output
+			(at 213.36 129.54 180)
+			(uuid "b0f5c998-742e-44ea-b7dd-b86b4c2cf61c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MTMP" output
+			(at 213.36 132.08 180)
+			(uuid "05bbb85b-cad7-4d79-a83e-9e0305b7c598")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HUP" output
+			(at 213.36 72.39 180)
+			(uuid "c0835db2-fab4-4548-8a7e-c1e68f6a1dd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Lark"
+				(path "/a351af57-4353-47da-9f45-7393de572768"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 36.83)
+		(size 12.7 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -192,7 +546,7 @@
 		)
 		(uuid "9aa817d4-eb96-4675-9e22-be0e45d55bef")
 		(property "Sheetname" "USB"
-			(at 27.94 133.9084 0)
+			(at 17.78 36.1184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -201,16 +555,17 @@
 			)
 		)
 		(property "Sheetfile" "USB.kicad_sch"
-			(at 27.94 142.8246 0)
+			(at 17.78 45.0346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "D+" bidirectional
-			(at 46.99 137.16 0)
+			(at 30.48 39.37 0)
 			(uuid "48b99329-fe56-45f9-a665-abc28c053a72")
 			(effects
 				(font
@@ -220,7 +575,7 @@
 			)
 		)
 		(pin "D-" bidirectional
-			(at 46.99 139.7 0)
+			(at 30.48 41.91 0)
 			(uuid "17ba33b5-a46c-4f6d-b8db-41ee01b1544d")
 			(effects
 				(font
@@ -238,7 +593,7 @@
 		)
 	)
 	(sheet
-		(at 26.67 66.04)
+		(at 17.78 53.34)
 		(size 25.4 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -254,7 +609,7 @@
 		)
 		(uuid "e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773")
 		(property "Sheetname" "Power"
-			(at 26.67 65.3284 0)
+			(at 17.78 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -263,12 +618,13 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 26.67 84.4046 0)
+			(at 17.78 71.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -280,8 +636,8 @@
 		)
 	)
 	(sheet
-		(at 27.94 20.32)
-		(size 24.13 21.59)
+		(at 182.88 113.03)
+		(size 22.86 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -296,7 +652,7 @@
 		)
 		(uuid "e3e99bd1-20bf-4506-a33a-c7e187c8429b")
 		(property "Sheetname" "Sensors"
-			(at 27.94 19.6084 0)
+			(at 182.88 112.3184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -305,87 +661,48 @@
 			)
 		)
 		(property "Sheetfile" "Sensors.kicad_sch"
-			(at 27.94 42.4946 0)
+			(at 182.88 135.2046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "MARK" output
-			(at 52.07 24.13 0)
+			(at 182.88 118.11 180)
 			(uuid "f153a685-6b49-4196-9b67-1ab06d1c3a8a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "PAPER" output
-			(at 52.07 27.94 0)
+			(at 182.88 115.57 180)
 			(uuid "5242e4d5-dd44-4e4b-84f9-dc3d21199c60")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "PHE_M" input
-			(at 27.94 22.86 180)
+			(at 205.74 124.46 0)
 			(uuid "9b9c5d60-5509-4ec9-bff6-f9ebef753fad")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "PHK_M" input
-			(at 27.94 25.4 180)
+			(at 205.74 121.92 0)
 			(uuid "0d76bc33-c982-459e-964b-389e1c0fb7b8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PHE_P" input
-			(at 27.94 27.94 180)
-			(uuid "4078297f-0604-4e3a-bcfb-32f1232ed0d0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PHK_P" input
-			(at 27.94 30.48 180)
-			(uuid "e22b16d1-29cc-4f3b-8565-691c15f22e73")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "HTMP" input
-			(at 27.94 35.56 180)
-			(uuid "0c63c9f7-e295-44f2-8b76-9b7c25c24b4d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "H_TMP" output
-			(at 52.07 35.56 0)
-			(uuid "76ecd485-98bc-43f3-a7fc-5cb11bc6f315")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -393,9 +710,39 @@
 				(justify right)
 			)
 		)
-		(pin "MTMP" input
-			(at 27.94 39.37 180)
-			(uuid "d0cf3792-e7a7-4df5-86f8-42e00f4e0d7b")
+		(pin "PHE_P" input
+			(at 205.74 118.11 0)
+			(uuid "4078297f-0604-4e3a-bcfb-32f1232ed0d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PHK_P" input
+			(at 205.74 115.57 0)
+			(uuid "e22b16d1-29cc-4f3b-8565-691c15f22e73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HTMP" input
+			(at 205.74 129.54 0)
+			(uuid "0c63c9f7-e295-44f2-8b76-9b7c25c24b4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "H_TMP" output
+			(at 182.88 121.92 180)
+			(uuid "76ecd485-98bc-43f3-a7fc-5cb11bc6f315")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -403,9 +750,92 @@
 				(justify left)
 			)
 		)
+		(pin "MTMP" input
+			(at 205.74 132.08 0)
+			(uuid "d0cf3792-e7a7-4df5-86f8-42e00f4e0d7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(pin "M_TMP" output
-			(at 52.07 39.37 0)
+			(at 182.88 124.46 180)
 			(uuid "6caf40c1-4e2f-42fd-b62d-b7f71cd4cebd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Lark"
+				(path "/a351af57-4353-47da-9f45-7393de572768"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 17.78)
+		(size 15.24 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 217 255 208 1.0000)
+		)
+		(uuid "edc369e3-0a21-4448-a6d2-131219450aa0")
+		(property "Sheetname" "Boot Controller"
+			(at 17.78 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Boot_Controller.kicad_sch"
+			(at 17.78 31.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "BOOT0" output
+			(at 33.02 21.59 0)
+			(uuid "7513cac3-44ce-46f0-97b6-1453f61624f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{slash}RST" output
+			(at 33.02 26.67 0)
+			(uuid "6ec9e780-a721-4616-975b-62bdc1431670")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWR_EN" output
+			(at 33.02 24.13 0)
+			(uuid "de095115-17a9-4cff-8959-ba4350d08db8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -416,7 +846,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768"
-					(page "2")
+					(page "6")
 				)
 			)
 		)

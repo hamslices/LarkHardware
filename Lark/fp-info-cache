@@ -1,4 +1,4 @@
-26729457369032704
+26748817943374088
 Allegro MicroSystems
 QFN-24-1EP_4x4mm_P0.5mm_EP2.75x2.75mm_ThermalVias
 QFN, 24 Pin (https://www.infineon.com/dgdl/Infineon-EZ-PD_BCR_Datasheet_USB_Type-C_Port_Controller_for_Power_Sinks-DataSheet-v03_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ee7ce9d70ad), generated with kicad-footprint-generator ipc_noLead_generator.py
@@ -2817,6 +2817,13 @@ Buzzer_Beeper
 Speaker_CUI_CMR-1206S-67
 Speaker, 30mW, 300-7000Hz, IP67 face, 12x6x2,25mm, https://www.cuidevices.com/product/resource/cmr-12062s-67.pdf
 speaker CUI
+0
+2
+2
+C&K
+PTS636 SP50 SMTR LFS
+
+
 0
 2
 2
@@ -69124,6 +69131,13 @@ THT
 0
 4
 2
+JST Sales America Inc
+JST_PHD_B34B-PHDSS_2x17_P2.00mm_Vertical
+JST PHD series connector, B34B-PHDSS (http://www.jst-mfg.com/product/pdf/eng/ePHD.pdf), generated with kicad-footprint-generator
+connector JST PHD vertical
+0
+34
+34
 Jumper
 Jumper_Harwin_S1621_P10.9mm
 Harwin SMD jumper link, 12.3x2.3mm, 1.8mm height, 10.9mm pad pitch, https://cdn.harwin.com/pdfs/S1621R.pdf
@@ -70587,6 +70601,27 @@ Yellow 5381 Series LED
 0
 2
 2
+Lite-On Inc
+LED_0805
+LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+LED
+0
+2
+2
+Microchip
+8-SOIC_5.3x8.2
+SOIC, 8 Pin (JEITA/EIAJ ED-7311-19 variation 08-001-BBA and Atmel/Microchip, 208 mils width, https://www.jeita.or.jp/japanese/standard/book/ED-7311-19/#target/page_no=21, https://ww1.microchip.com/downloads/en/DeviceDoc/20005045C.pdf#page=23, https://ww1.microchip.com/downloads/en/DeviceDoc/doc2535.pdf#page=162), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO P-SOP SOP SOP-8 SO SO-8 8S2 S2AE/F K04-056 CASE-751BE SO8W 8-Pin-SOIC PSA W8-2 W8-4 W8MS-1 FPT-8P-M08
+0
+8
+8
+Microchip
+DIP-8_W7.62mm
+8-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+0
+8
+8
 Microchip
 SOT-23-5
 SOT, 5 Pin (JEDEC MO-178 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py
@@ -70923,6 +70958,13 @@ module pcb
 0
 7
 7
+Molex
+530470210
+
+
+0
+2
+2
 Molex
 CONN_2169890002_MOL
 
@@ -92483,6 +92525,20 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
+Panasonic Electronic Components
+ECA-1VM101
+CP, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=12.2mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm diameter 6.3mm height 12.2mm Electrolytic Capacitor
+0
+2
+2
+Panasonic Electronic Components
+EEU-HD1V682_Right-Angle
+CP, Radial series, Radial, pin pitch=7.50mm, diameter=18mm, height=35mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 7.50mm diameter 18mm height 35mm Electrolytic Capacitor
+0
+2
+2
 Panelization
 BreakLine_1h_D0.5mm_P0.85mm
 Break line, 1 hole/ 0.85mm
@@ -97950,6 +98006,13 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
+Stackpole
+RAVF_164D
+Chip Resistor Network, ROHM MNR34 (see mnr_g.pdf)
+resistor array
+0
+8
+8
 Stackpole
 R_0402
 Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
@@ -104775,6 +104838,20 @@ test point THT pad
 0
 1
 1
+Texas Instruments
+SN74LVC541ARGYR
+QFN, 20 Pin, RGY0020A (https://www.ti.com/lit/ds/symlink/txb0108.pdf#page=33)
+QFN NoLead
+0
+29
+21
+Texas Instruments
+SOT-23-6
+TSOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TSOT TO_SOT_SMD
+0
+6
+6
 Transformer_SMD
 Pulse_P0926NL
 SMT Gate Drive Transformer, 1:1:1, 8.0x6.3x5.3mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)

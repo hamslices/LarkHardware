@@ -798,6 +798,176 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Panasonic Electronic Components:ECA-1VM101"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100 µF"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Panasonic Electronic Components:ECA-1VM101"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2452/ECA-xxM%20Series%2CTypeA.pdf"
+				(at 0 -5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100 µF 35 V Aluminum Electrolytic Capacitors Radial, Can 2000 Hrs @ 85°C"
+				(at 0.762 -8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "ECA-1VM101"
+				(at -0.254 -10.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ECA-1VM101_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "ECA-1VM101_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Stackpole:Resistor"
 			(pin_numbers
 				(hide yes)
@@ -1349,6 +1519,54 @@
 		)
 	)
 	(rectangle
+		(start 73.66 154.94)
+		(end 100.33 195.58)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2631deb9-13e4-40eb-adfe-4e76eb70c37d)
+	)
+	(rectangle
+		(start 251.46 19.05)
+		(end 280.67 35.56)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2b646515-429d-48e9-869c-7c6f752ea263)
+	)
+	(rectangle
+		(start 166.37 100.33)
+		(end 190.5 111.76)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 360e2953-6452-441a-ae91-75db0af0f299)
+	)
+	(rectangle
+		(start 136.144 53.086)
+		(end 155.194 65.786)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 60dc57a5-dda0-48e7-aa0f-38a381e5af44)
+	)
+	(rectangle
 		(start 15.24 154.94)
 		(end 68.58 195.58)
 		(stroke
@@ -1360,9 +1578,21 @@
 		)
 		(uuid c230a41b-30a0-49d4-a70f-dae2252b4ba2)
 	)
+	(rectangle
+		(start 13.462 13.208)
+		(end 66.802 42.418)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c8973843-89f3-4af6-a735-3dc78eab927c)
+	)
 	(text "MS1   MS2     Res\n0     0       1/1\n1     0       1/2\n0     1       1/4\n1     1       1/8"
 		(exclude_from_sim no)
-		(at 135.636 59.944 0)
+		(at 137.16 59.69 0)
 		(effects
 			(font
 				(face "Consolas")
@@ -1383,6 +1613,17 @@
 		)
 		(uuid "3d5dc59c-cdeb-4641-9c9a-e9030a17f4f5")
 	)
+	(text "Bulk Cap"
+		(exclude_from_sim no)
+		(at 78.994 153.162 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(italic yes)
+			)
+		)
+		(uuid "4cf3b255-4f23-489a-afe1-2a57bf070b6a")
+	)
 	(text "Coil Current  Temp Tj\n0.25 A        33.3  °C\n0.5 A         58.3  °C\n0.8 A         110.2 °C\n1.0 A         158.2 °C"
 		(exclude_from_sim no)
 		(at 167.64 106.426 0)
@@ -1394,6 +1635,18 @@
 			(justify left)
 		)
 		(uuid "5e60ca56-916d-4497-a666-804302bdab37")
+	)
+	(text "Test Points"
+		(exclude_from_sim no)
+		(at 251.206 17.526 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "62ee5d00-217e-4ec4-8958-f2f45184f539")
 	)
 	(text "Iout = 0.3125 x VREF"
 		(exclude_from_sim no)
@@ -1537,6 +1790,16 @@
 			(type default)
 		)
 		(uuid "13c37744-26de-452b-842c-cf4cce924c7d")
+	)
+	(wire
+		(pts
+			(xy 85.09 179.07) (xy 85.09 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a311217-debc-4398-a2d6-b992e8b19981")
 	)
 	(wire
 		(pts
@@ -1780,6 +2043,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 166.37) (xy 85.09 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eb5016b-fc55-4a15-b3b6-98ff58cbee84")
+	)
+	(wire
+		(pts
 			(xy 252.73 102.87) (xy 257.81 102.87)
 		)
 		(stroke
@@ -1800,7 +2073,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 22.86) (xy 270.51 27.94)
+			(xy 266.7 26.67) (xy 266.7 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2010,7 +2283,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 27.94) (xy 270.51 27.94)
+			(xy 259.08 31.75) (xy 266.7 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2209,7 +2482,7 @@
 		(uuid "7ff17672-c521-40d8-8f5b-8c6c80414435")
 	)
 	(label "VREF"
-		(at 262.89 27.94 0)
+		(at 259.08 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2564,7 +2837,7 @@
 			(uuid "2745077f-e13c-4559-bd5b-421f1b4249ff")
 		)
 		(instances
-			(project ""
+			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/4f6e6a31-1617-4951-bb1f-ffce39c005db"
 					(reference "#PWR036")
 					(unit 1)
@@ -2659,7 +2932,7 @@
 			(uuid "08948674-5ba5-42e4-a2e1-5d143c10e291")
 		)
 		(instances
-			(project ""
+			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/4f6e6a31-1617-4951-bb1f-ffce39c005db"
 					(reference "R19")
 					(unit 1)
@@ -2728,6 +3001,85 @@
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/4f6e6a31-1617-4951-bb1f-ffce39c005db"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Panasonic Electronic Components:ECA-1VM101")
+		(at 85.09 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "291400aa-78e8-4d9c-a134-508b82447d29")
+		(property "Reference" "C11"
+			(at 88.9 173.1009 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 µF"
+			(at 88.9 175.6409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Panasonic Electronic Components:ECA-1VM101"
+			(at 86.0552 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2452/ECA-xxM%20Series%2CTypeA.pdf"
+			(at 85.09 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 µF 35 V Aluminum Electrolytic Capacitors Radial, Can 2000 Hrs @ 85°C"
+			(at 85.09 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ECA-1VM101"
+			(at 85.09 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e64338df-e998-4364-aab9-f89f34e119dd")
+		)
+		(pin "2"
+			(uuid "0c034e36-b77d-4802-95e1-c6fea4c469cd")
+		)
+		(instances
+			(project "Lark"
+				(path "/a351af57-4353-47da-9f45-7393de572768/4f6e6a31-1617-4951-bb1f-ffce39c005db"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -2867,7 +3219,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 270.51 22.86 0)
+		(at 266.7 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2876,7 +3228,7 @@
 		(fields_autoplaced yes)
 		(uuid "379fa90a-889f-4e2c-8a0c-65fd6402389f")
 		(property "Reference" "TP7"
-			(at 273.05 18.2879 0)
+			(at 269.24 22.0979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2885,7 +3237,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 273.05 20.8279 0)
+			(at 269.24 24.6379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2893,8 +3245,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 275.59 22.86 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 271.78 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2903,7 +3255,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 275.59 22.86 0)
+			(at 271.78 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2912,7 +3264,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 270.51 22.86 0)
+			(at 266.7 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3021,6 +3373,72 @@
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/4f6e6a31-1617-4951-bb1f-ffce39c005db"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57fd7654-9f73-4700-aa8b-9fdeaabd7717")
+		(property "Reference" "#PWR057"
+			(at 85.09 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "009df903-bec2-4ff3-baff-e978c7d39464")
+		)
+		(instances
+			(project "Lark"
+				(path "/a351af57-4353-47da-9f45-7393de572768/4f6e6a31-1617-4951-bb1f-ffce39c005db"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3305,6 +3723,72 @@
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/4f6e6a31-1617-4951-bb1f-ffce39c005db"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 85.09 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "776f1935-3373-47e2-a305-dcfefb749b7b")
+		(property "Reference" "#PWR056"
+			(at 85.09 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 85.09 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 85.09 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ef5452e-0add-47ce-a093-8e79c4cbaec9")
+		)
+		(instances
+			(project "Lark"
+				(path "/a351af57-4353-47da-9f45-7393de572768/4f6e6a31-1617-4951-bb1f-ffce39c005db"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -3731,7 +4215,7 @@
 			(uuid "3b6cbf17-9e71-4d6f-8cb1-ed130937caa6")
 		)
 		(instances
-			(project ""
+			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/4f6e6a31-1617-4951-bb1f-ffce39c005db"
 					(reference "U5")
 					(unit 1)

@@ -1,0 +1,135 @@
+(footprint "EEU-HD1V682_Right-Angle"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CP, Radial series, Radial, pin pitch=7.50mm, diameter=18mm, height=35mm, Electrolytic Capacitor")
+	(tags "CP Radial series Radial pin pitch 7.50mm diameter 18mm height 35mm Electrolytic Capacitor")
+	(property "Reference" "REF**"
+		(at 3.85 -0.03 0)
+		(layer "F.SilkS")
+		(uuid "5ea99924-2c0b-4814-b4a0-b33604f0307e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "EEU-HD1V682_Right-Angle"
+		(at 3.75 10.25 0)
+		(layer "F.Fab")
+		(uuid "c15e960e-0961-4cde-b376-de935125f72b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13f88ca6-6b19-4120-990e-e3b14ac6b437")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "213ecf4a-1bd8-45d5-9723-b66c44d14f53")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.73 -0.01)
+		(end -1.93 -0.01)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "28ac6c44-3baa-4a8c-b2b2-81a8d6284ce0")
+	)
+	(fp_line
+		(start -2.83 -0.91)
+		(end -2.83 0.89)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e76ee839-cbfa-4ffe-b5a6-61c5cef47b14")
+	)
+	(fp_line
+		(start -3.72 -0.02)
+		(end -1.92 -0.02)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b3cfb790-a8f5-406d-9344-aa195b368d66")
+	)
+	(fp_line
+		(start -2.82 -0.92)
+		(end -2.82 0.88)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6b6c64da-7944-4121-98a8-2559df9c22fe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.46 8.41 0)
+		(layer "F.Fab")
+		(uuid "841c949c-28e3-451c-9150-50e9e41805b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.104167)
+		(uuid "9f9a1b89-f4a4-4ac5-8be2-e750ca8b9a6c")
+	)
+	(pad "2" thru_hole circle
+		(at 7.5 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bc7de91a-6caa-4dc7-9c46-ee66bf65a29f")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Matt/Downloads/35PX6800MEFC18X35.5 v4.step"
+		(offset
+			(xyz 3.75 -5.6 12)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)
