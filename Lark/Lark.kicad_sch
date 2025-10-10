@@ -530,6 +530,99 @@
 		)
 	)
 	(sheet
+		(at 17.78 76.2)
+		(size 12.7 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 217 255 208 1.0000)
+		)
+		(uuid "952214a1-3201-40ca-8c5a-55526392db8f")
+		(property "Sheetname" "FrontIO"
+			(at 17.78 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FrontIO.kicad_sch"
+			(at 17.78 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "BTN1" output
+			(at 30.48 78.74 0)
+			(uuid "2ba467ca-75f3-4d6b-b549-59b6746cb051")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BTN2" output
+			(at 30.48 81.28 0)
+			(uuid "6f665ad0-f091-4209-96e3-db669c9d1c60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM1" input
+			(at 30.48 85.09 0)
+			(uuid "ab429875-f1d1-4f3e-a615-e33650e3098b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM2" input
+			(at 30.48 87.63 0)
+			(uuid "f5c6061e-9a29-43a4-9a2d-7b1cc937d202")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM3" input
+			(at 30.48 90.17 0)
+			(uuid "426f0fa2-ff05-44db-aaac-8cb9b3c9ce05")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Lark"
+				(path "/a351af57-4353-47da-9f45-7393de572768"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 17.78 36.83)
 		(size 12.7 7.62)
 		(exclude_from_sim no)

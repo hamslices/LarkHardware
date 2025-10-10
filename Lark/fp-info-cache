@@ -1,4 +1,4 @@
-26748817943374088
+26750578026315695
 Allegro MicroSystems
 QFN-24-1EP_4x4mm_P0.5mm_EP2.75x2.75mm_ThermalVias
 QFN, 24 Pin (https://www.infineon.com/dgdl/Infineon-EZ-PD_BCR_Datasheet_USB_Type-C_Port_Controller_for_Power_Sinks-DataSheet-v03_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ee7ce9d70ad), generated with kicad-footprint-generator ipc_noLead_generator.py
@@ -70966,6 +70966,13 @@ Molex
 2
 2
 Molex
+0530470810
+
+
+0
+8
+8
+Molex
 CONN_2169890002_MOL
 
 
@@ -104843,7 +104850,7 @@ SN74LVC541ARGYR
 QFN, 20 Pin, RGY0020A (https://www.ti.com/lit/ds/symlink/txb0108.pdf#page=33)
 QFN NoLead
 0
-29
+30
 21
 Texas Instruments
 SOT-23-6
