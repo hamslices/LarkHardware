@@ -2430,7 +2430,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1a526d6-19fe-440b-a739-c394995727f8")
-		(property "Reference" "R53"
+		(property "Reference" "R54"
 			(at 69.85 36.8299 0)
 			(effects
 				(font
@@ -2510,7 +2510,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/f3d772fb-b064-42ef-8815-28d16dd8d37f"
-					(reference "R53")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -2817,7 +2817,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5a02473-23ed-4e5c-90e1-fbe29dda21d3")
-		(property "Reference" "R52"
+		(property "Reference" "R53"
 			(at 50.8 36.8299 0)
 			(effects
 				(font
@@ -2897,7 +2897,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/f3d772fb-b064-42ef-8815-28d16dd8d37f"
-					(reference "R52")
+					(reference "R53")
 					(unit 1)
 				)
 			)

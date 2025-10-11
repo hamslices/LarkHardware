@@ -19,4 +19,5 @@
   (lib (name "SCHURTER Inc")(type "KiCad")(uri "${LARKLIB_3D}/SCHURTER Inc.pretty")(options "")(descr ""))
   (lib (name "Vishay Siliconix")(type "KiCad")(uri "${LARKLIB_3D}/Vishay Siliconix.pretty")(options "")(descr ""))
   (lib (name "Diodes Incorporated")(type "KiCad")(uri "${LARKLIB_3D}/Diodes Incorporated.pretty")(options "")(descr ""))
+  (lib (name "Winbond Electronics")(type "KiCad")(uri "${LARKLIB_3D}/Winbond Electronics.pretty")(options "")(descr ""))
 )

@@ -466,7 +466,8 @@
       "Tensility International Corp",
       "SCHURTER Inc",
       "Vishay Siliconix",
-      "Diodes Incorporated"
+      "Diodes Incorporated",
+      "Winbond Electronics"
     ],
     "pinned_symbol_libs": [
       "Stackpole",
@@ -486,7 +487,8 @@
       "Tensility International Corp",
       "Vishay Siliconix",
       "SCHURTER Inc",
-      "Diodes Incorporated"
+      "Diodes Incorporated",
+      "Winbond Electronics"
     ]
   },
   "meta": {
@@ -734,6 +736,10 @@
     [
       "510bbd44-ee11-40bc-952d-6cd0def4c817",
       "MCU"
+    ],
+    [
+      "fbf20d92-3dc5-48bd-8ff0-5e0b8683d6ab",
+      "Flash"
     ]
   ],
   "text_variables": {}

@@ -19,4 +19,5 @@
   (lib (name "SCHURTER Inc")(type "KiCad")(uri "${LARKLIB_3D}/SCHURTER Inc.kicad_sym")(options "")(descr ""))
   (lib (name "Diodes Incorporated")(type "KiCad")(uri "${LARKLIB_3D}/Diodes Incorporated.kicad_sym")(options "")(descr ""))
   (lib (name "Stackpole Electronics Inc")(type "KiCad")(uri "${LARKLIB_3D}/Stackpole Electronics Inc.kicad_sym")(options "")(descr ""))
+  (lib (name "Winbond Electronics")(type "KiCad")(uri "C:/Users/Matt/Documents/GitHub/LarkHardware/Winbond Electronics.kicad_sym")(options "")(descr ""))
 )
