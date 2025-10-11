@@ -143,7 +143,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Microchip:SOT-23-5"
 				(at 1.27 -15.24 0)
 				(effects
 					(font
@@ -162,6 +162,15 @@
 				)
 			)
 			(property "Description" "Comparator Standard (General Purpose) Push-Pull SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "MIC7211YM5-TR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -506,12 +515,13 @@
 					(hide yes)
 				)
 			)
-			(property "Power" ""
+			(property "MPN" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Case" ""
@@ -520,9 +530,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "MPN" ""
+			(property "Power" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -671,15 +682,15 @@
 				)
 			)
 			(property "Value" "ESD5Z3.3T1G"
-				(at 0 -2.54 0)
+				(at 0 -3.048 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "onsemi:D_SOD-523"
-				(at 0 0 0)
+			(property "Footprint" "onsemi:ESD5Z3.3T1G"
+				(at 0 -4.826 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -687,8 +698,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
+				(at 0 -8.382 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -697,7 +708,7 @@
 				)
 			)
 			(property "Description" "Bidirectional transient-voltage-suppression diode"
-				(at 0 0 0)
+				(at 0 -6.604 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -705,8 +716,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" ""
-				(at 0 0 0)
+			(property "MPN" "ESD5Z3.3T1G"
+				(at 0 -3.048 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2669,7 +2680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "~"
 			(at 184.15 133.35 0)
 			(effects
 				(font
@@ -2723,92 +2734,6 @@
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e3e99bd1-20bf-4506-a33a-c7e187c8429b"
 					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Murata Electronics:Capacitor")
-		(at 62.23 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "068012fd-faca-49b3-9544-170f0e8e80bf")
-		(property "Reference" "C4"
-			(at 64.77 173.9962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 µF"
-			(at 64.77 176.5362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Murata Electronics:C_0603"
-			(at 62.23 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104MA35-01A.pdf"
-			(at 62.23 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 62.23 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0603"
-			(at 67.31 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM188R72A104MA35J"
-			(at 62.23 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f44074ed-985a-45e4-aef4-352b86d34351")
-		)
-		(pin "1"
-			(uuid "df3216e3-b85e-4ba3-a7ea-f842ffb2b8cf")
-		)
-		(instances
-			(project "Lark"
-				(path "/a351af57-4353-47da-9f45-7393de572768/e3e99bd1-20bf-4506-a33a-c7e187c8429b"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -2982,7 +2907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "~"
 			(at 184.15 41.91 0)
 			(effects
 				(font
@@ -3077,7 +3002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "~"
 			(at 67.31 60.96 0)
 			(effects
 				(font
@@ -3230,7 +3155,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "onsemi:D_SOD-523"
+		(property "Footprint" "onsemi:ESD5Z3.3T1G"
 			(at 78.74 60.96 0)
 			(effects
 				(font
@@ -3468,7 +3393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "~"
 			(at 67.31 109.22 0)
 			(effects
 				(font
@@ -3846,7 +3771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "~"
 			(at 67.31 39.37 0)
 			(effects
 				(font
@@ -3941,7 +3866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "~"
 			(at 49.53 130.81 0)
 			(effects
 				(font
@@ -4557,7 +4482,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "onsemi:D_SOD-523"
+		(property "Footprint" "onsemi:ESD5Z3.3T1G"
 			(at 78.74 130.81 0)
 			(effects
 				(font
@@ -4644,7 +4569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "~"
 			(at 200.66 110.49 0)
 			(effects
 				(font
@@ -4704,6 +4629,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Murata Electronics:Capacitor")
+		(at 36.83 175.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c42173f-59f8-4986-8f1f-5e3c8549a90c")
+		(property "Reference" "C2"
+			(at 41.91 173.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1µF"
+			(at 44.704 176.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Murata Electronics:C_0603"
+			(at 36.83 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 36.83 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0603"
+			(at 41.656 178.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM188R72A104MA35J"
+			(at 36.83 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6b78905f-213f-431d-b5c1-7320a19a20b3")
+		)
+		(pin "1"
+			(uuid "425dbb0f-08a2-499e-a436-682a320ea456")
+		)
+		(instances
+			(project "Lark"
+				(path "/a351af57-4353-47da-9f45-7393de572768/e3e99bd1-20bf-4506-a33a-c7e187c8429b"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Stackpole:Resistor")
 		(at 78.74 39.37 0)
 		(unit 1)
@@ -4739,7 +4750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "~"
 			(at 78.74 39.37 0)
 			(effects
 				(font
@@ -5090,7 +5101,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "onsemi:D_SOD-523"
+		(property "Footprint" "onsemi:ESD5Z3.3T1G"
 			(at 198.12 62.23 0)
 			(effects
 				(font
@@ -5340,92 +5351,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Murata Electronics:Capacitor")
-		(at 36.83 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "85bc9c94-6273-476b-a33e-a6cd43cbf13f")
-		(property "Reference" "C2"
-			(at 39.37 173.9962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 µF"
-			(at 39.37 176.5362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Murata Electronics:C_0603"
-			(at 36.83 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104MA35-01A.pdf"
-			(at 36.83 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 36.83 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0603"
-			(at 41.91 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM188R72A104MA35J"
-			(at 36.83 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e386d040-3525-4712-a9df-d3d0621b65aa")
-		)
-		(pin "1"
-			(uuid "c915936f-af2f-40a4-b1af-b81d2d560d8e")
-		)
-		(instances
-			(project "Lark"
-				(path "/a351af57-4353-47da-9f45-7393de572768/e3e99bd1-20bf-4506-a33a-c7e187c8429b"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Stackpole:Resistor")
 		(at 67.31 130.81 0)
 		(unit 1)
@@ -5461,7 +5386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "~"
 			(at 67.31 130.81 0)
 			(effects
 				(font
@@ -5548,7 +5473,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "onsemi:D_SOD-523"
+		(property "Footprint" "onsemi:ESD5Z3.3T1G"
 			(at 198.12 132.08 0)
 			(effects
 				(font
@@ -5701,7 +5626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "~"
 			(at 166.37 39.37 0)
 			(effects
 				(font
@@ -5755,6 +5680,92 @@
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e3e99bd1-20bf-4506-a33a-c7e187c8429b"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Murata Electronics:Capacitor")
+		(at 49.53 175.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f6fd5a4-e3d1-45da-a662-914101f64465")
+		(property "Reference" "C3"
+			(at 54.356 173.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1µF"
+			(at 57.404 176.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Murata Electronics:C_0603"
+			(at 49.53 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 49.53 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0603"
+			(at 54.356 178.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM188R72A104MA35J"
+			(at 49.53 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "016e6324-ed85-4c7d-8e3b-e69103126de2")
+		)
+		(pin "1"
+			(uuid "3f6f7aa8-55d6-4847-9b54-15f59861766f")
+		)
+		(instances
+			(project "Lark"
+				(path "/a351af57-4353-47da-9f45-7393de572768/e3e99bd1-20bf-4506-a33a-c7e187c8429b"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5861,7 +5872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "~"
 			(at 200.66 40.64 0)
 			(effects
 				(font
@@ -6156,7 +6167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "~"
 			(at 38.1 130.81 0)
 			(effects
 				(font
@@ -6210,6 +6221,92 @@
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e3e99bd1-20bf-4506-a33a-c7e187c8429b"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Murata Electronics:Capacitor")
+		(at 24.13 175.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e1477b1-aace-4afe-a975-18e22297eb57")
+		(property "Reference" "C1"
+			(at 28.956 173.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1µF"
+			(at 32.004 176.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Murata Electronics:C_0603"
+			(at 24.13 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 24.13 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0603"
+			(at 28.956 178.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM188R72A104MA35J"
+			(at 24.13 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cc866c74-8f84-441c-87ad-336680ac4b9f")
+		)
+		(pin "1"
+			(uuid "5f711a22-cbc7-4fac-b369-09cdfa6c591f")
+		)
+		(instances
+			(project "Lark"
+				(path "/a351af57-4353-47da-9f45-7393de572768/e3e99bd1-20bf-4506-a33a-c7e187c8429b"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -6317,7 +6414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "~"
 			(at 166.37 109.22 0)
 			(effects
 				(font
@@ -6575,6 +6672,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Murata Electronics:Capacitor")
+		(at 62.23 175.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "acf8fe75-4f40-462b-aaf3-d201f96a7944")
+		(property "Reference" "C4"
+			(at 67.056 173.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1µF"
+			(at 70.104 176.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Murata Electronics:C_0603"
+			(at 62.23 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 62.23 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0603"
+			(at 67.056 178.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM188R72A104MA35J"
+			(at 62.23 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "417ef725-c44d-44cb-96e3-bac2297a3b3a")
+		)
+		(pin "1"
+			(uuid "8adce8a7-575c-4485-8a25-b7e09f879488")
+		)
+		(instances
+			(project "Lark"
+				(path "/a351af57-4353-47da-9f45-7393de572768/e3e99bd1-20bf-4506-a33a-c7e187c8429b"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 78.74 71.12 0)
 		(unit 1)
@@ -6742,7 +6925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "~"
 			(at 184.15 63.5 0)
 			(effects
 				(font
@@ -6837,7 +7020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "~"
 			(at 78.74 109.22 0)
 			(effects
 				(font
@@ -7029,92 +7212,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Murata Electronics:Capacitor")
-		(at 24.13 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca0e11e0-d2c0-4987-b0e7-b0e3f2823e95")
-		(property "Reference" "C1"
-			(at 26.67 173.9962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 µF"
-			(at 26.67 176.5362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Murata Electronics:C_0603"
-			(at 24.13 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104MA35-01A.pdf"
-			(at 24.13 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 24.13 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0603"
-			(at 29.21 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM188R72A104MA35J"
-			(at 24.13 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3929c48a-e95c-43df-8d8f-440310eddd78")
-		)
-		(pin "1"
-			(uuid "848e339b-9ce6-4a5a-b7f4-6a9ab276d351")
-		)
-		(instances
-			(project ""
-				(path "/a351af57-4353-47da-9f45-7393de572768/e3e99bd1-20bf-4506-a33a-c7e187c8429b"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Stackpole:Resistor")
 		(at 38.1 60.96 0)
 		(unit 1)
@@ -7150,7 +7247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "~"
 			(at 38.1 60.96 0)
 			(effects
 				(font
@@ -7361,92 +7458,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Murata Electronics:Capacitor")
-		(at 49.53 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "da350c0d-a538-4530-964e-b24f56a2fa01")
-		(property "Reference" "C3"
-			(at 52.07 173.9962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 µF"
-			(at 52.07 176.5362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Murata Electronics:C_0603"
-			(at 49.53 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104MA35-01A.pdf"
-			(at 49.53 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 49.53 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0603"
-			(at 54.61 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM188R72A104MA35J"
-			(at 49.53 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "744730c1-6023-4116-85b9-fc912f86c3d6")
-		)
-		(pin "1"
-			(uuid "ec70a4ca-370f-466d-9d02-a39fc8ddbcf3")
-		)
-		(instances
-			(project "Lark"
-				(path "/a351af57-4353-47da-9f45-7393de572768/e3e99bd1-20bf-4506-a33a-c7e187c8429b"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 36.83 184.15 0)
 		(unit 1)
@@ -7548,7 +7559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "~"
 			(at 49.53 60.96 0)
 			(effects
 				(font
@@ -7794,7 +7805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "~"
 			(at 184.15 111.76 0)
 			(effects
 				(font

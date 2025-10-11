@@ -824,12 +824,13 @@
 					(hide yes)
 				)
 			)
-			(property "Power" ""
+			(property "MPN" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Case" ""
@@ -838,9 +839,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "MPN" ""
+			(property "Power" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2391,7 +2393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "~"
 			(at 173.99 125.73 0)
 			(effects
 				(font

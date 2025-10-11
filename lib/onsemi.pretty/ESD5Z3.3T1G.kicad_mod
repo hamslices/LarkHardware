@@ -1,4 +1,4 @@
-(footprint "D_SOD-523"
+(footprint "ESD5Z3.3T1G"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "D_SOD-523"
+	(property "Value" "ESD5Z3.3T1G"
 		(at 0 1.4 0)
 		(layer "F.Fab")
 		(uuid "3b12deaa-192e-45ab-a562-5d84812835c0")

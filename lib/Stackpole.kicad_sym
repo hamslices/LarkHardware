@@ -813,12 +813,13 @@
 				(hide yes)
 			)
 		)
-		(property "Power" ""
+		(property "MPN" ""
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Case" ""
@@ -827,9 +828,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Power" ""
 			(at 0 0 0)
 			(effects
 				(font

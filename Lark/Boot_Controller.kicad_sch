@@ -367,7 +367,7 @@
 				)
 			)
 			(property "Footprint" "Microchip:DIP-8_W7.62mm"
-				(at -0.508 -16.256 0)
+				(at 0.254 -23.622 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -819,7 +819,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
+			(property "Description" "Connector Header Through Hole 2 position 0.049\" (1.25mm)"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -1166,12 +1166,13 @@
 					(hide yes)
 				)
 			)
-			(property "Power" ""
+			(property "MPN" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Case" ""
@@ -1180,9 +1181,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "MPN" ""
+			(property "Power" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1331,15 +1333,15 @@
 				)
 			)
 			(property "Value" "ESD5Z3.3T1G"
-				(at 0 -2.54 0)
+				(at 0 -3.048 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "onsemi:D_SOD-523"
-				(at 0 0 0)
+			(property "Footprint" "onsemi:ESD5Z3.3T1G"
+				(at 0 -4.826 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1347,8 +1349,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
+				(at 0 -8.382 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1357,7 +1359,7 @@
 				)
 			)
 			(property "Description" "Bidirectional transient-voltage-suppression diode"
-				(at 0 0 0)
+				(at 0 -6.604 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1365,8 +1367,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" ""
-				(at 0 0 0)
+			(property "MPN" "ESD5Z3.3T1G"
+				(at 0 -3.048 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -12786,7 +12788,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 µF"
+		(property "Value" "0.1µF"
 			(at 267.97 110.4962 0)
 			(effects
 				(font
@@ -12804,7 +12806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104MA35-01A.pdf"
+		(property "Datasheet" "~"
 			(at 265.43 109.22 0)
 			(effects
 				(font
@@ -13174,7 +13176,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "onsemi:D_SOD-523"
+		(property "Footprint" "onsemi:ESD5Z3.3T1G"
 			(at 45.72 172.72 0)
 			(effects
 				(font
@@ -13261,7 +13263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "~"
 			(at 26.67 95.25 0)
 			(effects
 				(font
@@ -13338,7 +13340,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 µF"
+		(property "Value" "0.1µF"
 			(at 68.58 172.7262 0)
 			(effects
 				(font
@@ -13356,7 +13358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104MA35-01A.pdf"
+		(property "Datasheet" "~"
 			(at 66.04 171.45 0)
 			(effects
 				(font
@@ -13508,7 +13510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "~"
 			(at 55.88 163.83 0)
 			(effects
 				(font
@@ -13808,7 +13810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Connector Header Through Hole 2 position 0.049\" (1.25mm)"
 			(at 26.67 171.45 0)
 			(effects
 				(font
@@ -13877,7 +13879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "~"
 			(at 66.04 154.94 0)
 			(effects
 				(font
@@ -14038,7 +14040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "~"
 			(at 36.83 107.95 0)
 			(effects
 				(font

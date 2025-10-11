@@ -113,6 +113,16 @@
 		)
 		(uuid "e9bf12a6-8a54-4681-871d-ceb0c667bb0f")
 	)
+	(wire
+		(pts
+			(xy 34.29 38.1) (xy 40.64 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9c1446b-4ace-4174-afd3-e1800a5c7d79")
+	)
 	(sheet
 		(at 182.88 83.82)
 		(size 22.86 25.4)
@@ -623,7 +633,7 @@
 		)
 	)
 	(sheet
-		(at 17.78 36.83)
+		(at 17.78 115.57)
 		(size 12.7 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -639,7 +649,7 @@
 		)
 		(uuid "9aa817d4-eb96-4675-9e22-be0e45d55bef")
 		(property "Sheetname" "USB"
-			(at 17.78 36.1184 0)
+			(at 17.78 114.8584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -648,7 +658,7 @@
 			)
 		)
 		(property "Sheetfile" "USB.kicad_sch"
-			(at 17.78 45.0346 0)
+			(at 17.78 123.7746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -658,7 +668,7 @@
 			)
 		)
 		(pin "D+" bidirectional
-			(at 30.48 39.37 0)
+			(at 30.48 118.11 0)
 			(uuid "48b99329-fe56-45f9-a665-abc28c053a72")
 			(effects
 				(font
@@ -668,7 +678,7 @@
 			)
 		)
 		(pin "D-" bidirectional
-			(at 30.48 41.91 0)
+			(at 30.48 120.65 0)
 			(uuid "17ba33b5-a46c-4f6d-b8db-41ee01b1544d")
 			(effects
 				(font
@@ -686,8 +696,8 @@
 		)
 	)
 	(sheet
-		(at 17.78 53.34)
-		(size 25.4 17.78)
+		(at 40.64 34.29)
+		(size 12.7 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -702,7 +712,7 @@
 		)
 		(uuid "e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773")
 		(property "Sheetname" "Power"
-			(at 17.78 52.6284 0)
+			(at 40.64 33.5784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -711,13 +721,23 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 17.78 71.7046 0)
+			(at 40.64 42.4946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(pin "PWR_EN" input
+			(at 40.64 38.1 180)
+			(uuid "bd0eb90c-a211-4847-8ecf-cf6805875416")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -872,8 +892,8 @@
 		)
 	)
 	(sheet
-		(at 17.78 17.78)
-		(size 15.24 12.7)
+		(at 19.05 21.59)
+		(size 15.24 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -888,7 +908,7 @@
 		)
 		(uuid "edc369e3-0a21-4448-a6d2-131219450aa0")
 		(property "Sheetname" "Boot Controller"
-			(at 17.78 17.0684 0)
+			(at 19.05 20.8784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -897,7 +917,7 @@
 			)
 		)
 		(property "Sheetfile" "Boot_Controller.kicad_sch"
-			(at 17.78 31.0646 0)
+			(at 19.05 42.4946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -907,7 +927,7 @@
 			)
 		)
 		(pin "BOOT0" output
-			(at 33.02 21.59 0)
+			(at 34.29 25.4 0)
 			(uuid "7513cac3-44ce-46f0-97b6-1453f61624f5")
 			(effects
 				(font
@@ -917,7 +937,7 @@
 			)
 		)
 		(pin "{slash}RST" output
-			(at 33.02 26.67 0)
+			(at 34.29 27.94 0)
 			(uuid "6ec9e780-a721-4616-975b-62bdc1431670")
 			(effects
 				(font
@@ -927,7 +947,7 @@
 			)
 		)
 		(pin "PWR_EN" output
-			(at 33.02 24.13 0)
+			(at 34.29 38.1 0)
 			(uuid "de095115-17a9-4cff-8959-ba4350d08db8")
 			(effects
 				(font
@@ -940,6 +960,89 @@
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 96.52)
+		(size 12.7 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 217 255 208 1.0000)
+		)
+		(uuid "f3d772fb-b064-42ef-8815-28d16dd8d37f")
+		(property "Sheetname" "Auxiliary"
+			(at 17.78 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Auxiliary.kicad_sch"
+			(at 17.78 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "CLK" input
+			(at 30.48 99.06 0)
+			(uuid "1fdbefe8-ac47-47f3-b333-2bc8433ea724")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 30.48 101.6 0)
+			(uuid "7671741d-fb78-43b8-8cc0-f175f86c6686")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIOA" bidirectional
+			(at 30.48 105.41 0)
+			(uuid "12cc1e5d-3f71-4e5b-a8cc-498108ce8e78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIOB" bidirectional
+			(at 30.48 107.95 0)
+			(uuid "29466c1a-ed25-472b-9689-8d3b74ef4c6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Lark"
+				(path "/a351af57-4353-47da-9f45-7393de572768"
+					(page "11")
 				)
 			)
 		)

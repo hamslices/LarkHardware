@@ -1,4 +1,4 @@
-26750578026315695
+26773459850269297
 Allegro MicroSystems
 QFN-24-1EP_4x4mm_P0.5mm_EP2.75x2.75mm_ThermalVias
 QFN, 24 Pin (https://www.infineon.com/dgdl/Infineon-EZ-PD_BCR_Datasheet_USB_Type-C_Port_Controller_for_Power_Sinks-DataSheet-v03_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ee7ce9d70ad), generated with kicad-footprint-generator ipc_noLead_generator.py
@@ -60724,6 +60724,13 @@ Vishay KBU rectifier diode bridge
 0
 4
 4
+Diodes Incorporated
+MMBT2222A-7-F
+SOT, 3 Pin (JEDEC MO-178 inferred 3-pin variant https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+3
+3
 Display
 AG12864E
 STN/FSTN LCD 128x64 dot https://www.digchip.com/datasheets/parts/datasheet/1121/AG-12864E-pdf.php
@@ -70965,6 +70972,13 @@ Molex
 0
 2
 2
+Molex
+0530470410
+
+
+0
+4
+4
 Molex
 0530470810
 
@@ -95024,6 +95038,20 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
+ROHM
+BD9E302EFJ-E2
+SOIC, 8 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf#page=29), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+20
+9
+ROHM
+BD9G102G-LBTR
+SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+6
+6
 Relay_SMD
 Relay_2P2T_10x6mm_TE_IMxxG
 Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf
@@ -97348,6 +97376,20 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SCHURTER Inc
+3413.0326.22
+Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+fuse
+0
+2
+2
+STMicroelectronics
+LD39200PU33R
+DFN6 3*3 MM, 0.95 PITCH; CASE 506AH-01 (see ON Semiconductor 506AH.PDF)
+DFN 0.95
+0
+19
+7
 STMicroelectronics
 SOT95P280X145-6N
 
@@ -98020,6 +98062,13 @@ resistor array
 0
 8
 8
+Stackpole
+RPCQ2512JT220R
+Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
 Stackpole
 R_0402
 Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
@@ -99483,6 +99532,34 @@ Logo WEEE
 0
 0
 0
+TDK Corporation
+C2012X5R1V226M125AC
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+TDK Corporation
+CLF5030NIT-150M-D
+Inductor, SMD, 5.3x5.0mm 2.7mm height
+Inductor SMD
+0
+2
+2
+TDK Corporation
+CLF7045NIT-4R7N-D
+Choke, SMD, 7.3x7.3mm 3.5mm height
+Choke SMD
+0
+2
+2
+Tensility International Corp
+54-00128
+
+
+0
+5
+5
 TerminalBlock
 TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm
 terminal block MaiXu MX126-5.0-02P, 2 pins, pitch 5mm, size 10.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu
@@ -106483,10 +106560,24 @@ Varistor VF
 0
 2
 2
+Vishay Siliconix
+SISS65DN-T1-GE3
+PowerPAK 1212-8 Single (https://www.vishay.com/docs/71656/ppak12128.pdf, https://www.vishay.com/docs/72597/72597.pdf)
+Vishay PowerPAK 1212-8 Single
+0
+8
+8
 onsemi
-D_SOD-523
+ESD5Z3.3T1G
 http://www.diodes.com/datasheets/ap02001.pdf p.144
 Diode SOD523
+0
+2
+2
+onsemi
+SS26FL
+SOD-123F
+SOD-123F
 0
 2
 2
