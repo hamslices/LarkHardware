@@ -2368,6 +2368,44 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -3283,6 +3321,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 22.86 22.86)
@@ -3321,8 +3460,8 @@
 		(uuid b90fbf63-af54-476c-a719-35e76193d237)
 	)
 	(rectangle
-		(start 177.8 139.7)
-		(end 224.79 162.56)
+		(start 233.68 139.7)
+		(end 280.67 162.56)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3346,7 +3485,7 @@
 	)
 	(text "Power Test Points"
 		(exclude_from_sim no)
-		(at 178.054 138.43 0)
+		(at 233.934 138.43 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3368,7 +3507,7 @@
 		)
 		(uuid "62b9abdd-10d4-464f-8db1-0a859ca6d3da")
 	)
-	(text "ATTiny Boot Controller Supply"
+	(text "Boot Controller Supply"
 		(exclude_from_sim no)
 		(at 16.51 122.936 0)
 		(effects
@@ -3441,16 +3580,16 @@
 		(uuid "22dc749e-fd41-4f2f-8d51-adb53103acfb")
 	)
 	(junction
-		(at 67.31 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c84475b-a436-46d9-a9ee-62b91600b687")
-	)
-	(junction
 		(at 33.02 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31ef865f-61c9-47ae-b4d3-0c9000f1db95")
+	)
+	(junction
+		(at 265.43 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32d801ac-a1df-4f9a-891e-c49de9050437")
 	)
 	(junction
 		(at 148.59 34.29)
@@ -3459,10 +3598,10 @@
 		(uuid "32fbf1d4-1679-4978-aba2-1de0988f56a2")
 	)
 	(junction
-		(at 77.47 53.34)
+		(at 247.65 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "53201eee-acb2-4385-aa69-6fe3992b16ee")
+		(uuid "52447be8-530d-4560-8ed7-52130317c6a1")
 	)
 	(junction
 		(at 171.45 57.15)
@@ -3483,6 +3622,18 @@
 		(uuid "65c6e74d-f86e-4e5c-9b08-8602f6c0a460")
 	)
 	(junction
+		(at 256.54 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79a43b42-b4e0-4e10-95ea-8d7384a9fc16")
+	)
+	(junction
+		(at 274.32 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a0202db-b7a4-44b1-8b6e-24548bfd0090")
+	)
+	(junction
 		(at 101.6 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3501,12 +3652,6 @@
 		(uuid "95fb0f5f-ebc5-4018-9e36-e6299a4a2f43")
 	)
 	(junction
-		(at 241.3 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c6bcc07-5a42-4b8c-86dc-44abec9ea4b5")
-	)
-	(junction
 		(at 171.45 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3523,6 +3668,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cfeaafd9-cc1c-473a-9112-f48921e59866")
+	)
+	(junction
+		(at 241.3 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e52f4a3c-d7f9-483f-be5a-17260328a6e9")
 	)
 	(junction
 		(at 213.36 59.69)
@@ -3551,6 +3702,16 @@
 	(no_connect
 		(at 157.48 148.59)
 		(uuid "7c83b27c-7523-4529-934e-ce3e5216beab")
+	)
+	(wire
+		(pts
+			(xy 77.47 35.56) (xy 77.47 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "033b6243-737f-42d0-afd1-a9636715f086")
 	)
 	(wire
 		(pts
@@ -3591,6 +3752,16 @@
 			(type default)
 		)
 		(uuid "088484c2-56ad-40a6-b8e1-ce8c4a307fe7")
+	)
+	(wire
+		(pts
+			(xy 238.76 148.59) (xy 238.76 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aa8f526-913e-4684-bd6d-3742377215fe")
 	)
 	(wire
 		(pts
@@ -3644,16 +3815,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 48.26) (xy 67.31 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cae6097-82cf-4def-a992-ba84582729f2")
-	)
-	(wire
-		(pts
 			(xy 264.16 53.34) (xy 264.16 69.85)
 		)
 		(stroke
@@ -3674,7 +3835,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 148.59) (xy 209.55 152.4)
+			(xy 265.43 148.59) (xy 265.43 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3704,6 +3865,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 40.64) (xy 228.6 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2183c543-f9f1-434d-9764-478d31ac1ac4")
+	)
+	(wire
+		(pts
 			(xy 171.45 52.07) (xy 172.72 52.07)
 		)
 		(stroke
@@ -3711,16 +3882,6 @@
 			(type default)
 		)
 		(uuid "221082c1-2152-47d1-885f-eaf07d8d7fdd")
-	)
-	(wire
-		(pts
-			(xy 67.31 39.37) (xy 77.47 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2615798c-aeef-4fc4-ad55-c037c73ac01e")
 	)
 	(wire
 		(pts
@@ -3741,16 +3902,6 @@
 			(type default)
 		)
 		(uuid "2ba2075a-ed4c-44d8-a92b-334a54f41ece")
-	)
-	(wire
-		(pts
-			(xy 77.47 39.37) (xy 85.09 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bd8edd8-a2e1-4139-80f3-abbb4600444e")
 	)
 	(wire
 		(pts
@@ -3811,6 +3962,16 @@
 			(type default)
 		)
 		(uuid "385223c9-49c6-457f-83c7-2b6f805deccd")
+	)
+	(wire
+		(pts
+			(xy 274.32 151.13) (xy 274.32 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dfe9b10-e3ea-47ff-be37-cd6ddb752121")
 	)
 	(wire
 		(pts
@@ -3911,16 +4072,6 @@
 			(type default)
 		)
 		(uuid "54246226-5730-4dc5-ada7-e4eeeed5d7ec")
-	)
-	(wire
-		(pts
-			(xy 67.31 53.34) (xy 77.47 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5431b833-de72-44d5-9762-1876eddb0c60")
 	)
 	(wire
 		(pts
@@ -4034,6 +4185,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 151.13) (xy 247.65 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68d98fa8-4180-4a58-8d6f-1b5cc747a3a7")
+	)
+	(wire
+		(pts
 			(xy 130.81 144.78) (xy 129.54 144.78)
 		)
 		(stroke
@@ -4074,6 +4235,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 151.13) (xy 265.43 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6be85729-37c5-4d7e-9120-1487f83a53cc")
+	)
+	(wire
+		(pts
 			(xy 110.49 60.96) (xy 119.38 60.96)
 		)
 		(stroke
@@ -4091,6 +4262,16 @@
 			(type default)
 		)
 		(uuid "6eb249df-cad5-4b78-bd91-e29a6fff6869")
+	)
+	(wire
+		(pts
+			(xy 77.47 39.37) (xy 85.09 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f0215b0-3576-4e00-bf47-00412832540b")
 	)
 	(wire
 		(pts
@@ -4154,16 +4335,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 31.75) (xy 241.3 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8362642a-3b94-4611-9726-81b3e25b5cf8")
-	)
-	(wire
-		(pts
 			(xy 198.12 49.53) (xy 208.28 49.53)
 		)
 		(stroke
@@ -4181,6 +4352,16 @@
 			(type default)
 		)
 		(uuid "86f4427e-6554-4845-9778-33200dd610e3")
+	)
+	(wire
+		(pts
+			(xy 259.08 151.13) (xy 256.54 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a3af58-1396-42d9-8c2b-2e7ae2d97a66")
 	)
 	(wire
 		(pts
@@ -4214,6 +4395,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 151.13) (xy 256.54 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9144c1c8-2539-4f67-b967-4f125c08becf")
+	)
+	(wire
+		(pts
 			(xy 161.29 52.07) (xy 161.29 69.85)
 		)
 		(stroke
@@ -4244,16 +4435,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 39.37) (xy 67.31 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9427cf31-1d75-4cb1-886a-f62540275e04")
-	)
-	(wire
-		(pts
 			(xy 228.6 44.45) (xy 241.3 44.45)
 		)
 		(stroke
@@ -4264,7 +4445,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 148.59) (xy 200.66 152.4)
+			(xy 256.54 148.59) (xy 256.54 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4274,13 +4455,13 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 31.75) (xy 228.6 34.29)
+			(xy 267.97 151.13) (xy 265.43 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e4ebc08-37d0-41bf-8ce3-2ade22460ecb")
+		(uuid "9cd2cb06-5b07-4adc-8263-48c4a02bbbde")
 	)
 	(wire
 		(pts
@@ -4294,13 +4475,23 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 148.59) (xy 191.77 152.4)
+			(xy 247.65 148.59) (xy 247.65 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a0d6def1-f9eb-45cc-a73a-21ca1a581d41")
+	)
+	(wire
+		(pts
+			(xy 267.97 148.59) (xy 267.97 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2e467b0-519b-44bd-a021-912ed4cda4a7")
 	)
 	(wire
 		(pts
@@ -4354,16 +4545,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 41.91) (xy 228.6 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afa6dbdf-6fdc-4bf7-8623-849bd94088a7")
-	)
-	(wire
-		(pts
 			(xy 119.38 142.24) (xy 129.54 142.24)
 		)
 		(stroke
@@ -4371,6 +4552,16 @@
 			(type default)
 		)
 		(uuid "b17bb2a7-5485-4e9e-bd9b-c5c66e39e769")
+	)
+	(wire
+		(pts
+			(xy 228.6 31.75) (xy 228.6 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2c35778-479f-4229-bb41-a3c0606a4c54")
 	)
 	(wire
 		(pts
@@ -4414,6 +4605,26 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 148.59) (xy 259.08 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb2e472a-1e70-470b-bc2a-95b5a79dbbe9")
+	)
+	(wire
+		(pts
+			(xy 87.63 133.35) (xy 87.63 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bda2d56f-8e54-431f-a894-1d4f9614bc12")
+	)
+	(wire
+		(pts
 			(xy 90.17 63.5) (xy 90.17 66.04)
 		)
 		(stroke
@@ -4421,16 +4632,6 @@
 			(type default)
 		)
 		(uuid "c1af726e-ca12-4801-b166-b37d2c622545")
-	)
-	(wire
-		(pts
-			(xy 67.31 39.37) (xy 67.31 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1af8452-2132-49da-b3f0-68ac3654a9bd")
 	)
 	(wire
 		(pts
@@ -4464,16 +4665,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 133.35) (xy 87.63 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7428ac9-bb35-46cb-9e61-140816542260")
-	)
-	(wire
-		(pts
 			(xy 87.63 156.21) (xy 87.63 163.83)
 		)
 		(stroke
@@ -4484,13 +4675,23 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 148.59) (xy 218.44 152.4)
+			(xy 274.32 148.59) (xy 274.32 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c7a04631-4ad5-4eb7-878f-5b677b2cb088")
+	)
+	(wire
+		(pts
+			(xy 241.3 41.91) (xy 241.3 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9639ab0-6da7-46d6-ba1d-1ab0fcde14d5")
 	)
 	(wire
 		(pts
@@ -4521,6 +4722,16 @@
 			(type default)
 		)
 		(uuid "cc187697-fecf-4c06-b51d-462044b80329")
+	)
+	(wire
+		(pts
+			(xy 250.19 148.59) (xy 250.19 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf7a862-b752-4d9b-bb22-dcbc7d9d0c87")
 	)
 	(wire
 		(pts
@@ -4564,16 +4775,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 148.59) (xy 182.88 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d49a3982-a7d3-4d7f-955f-6abb28207194")
-	)
-	(wire
-		(pts
 			(xy 264.16 35.56) (xy 264.16 48.26)
 		)
 		(stroke
@@ -4604,7 +4805,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 39.37) (xy 49.53 39.37)
+			(xy 39.37 39.37) (xy 54.61 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4634,7 +4835,17 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 39.37) (xy 67.31 39.37)
+			(xy 247.65 151.13) (xy 247.65 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d882dd37-cc54-4309-8a9a-8caa5e050d81")
+	)
+	(wire
+		(pts
+			(xy 62.23 39.37) (xy 77.47 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4714,6 +4925,26 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 148.59) (xy 276.86 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4946d51-8691-426d-b771-c508c5b25a81")
+	)
+	(wire
+		(pts
+			(xy 241.3 31.75) (xy 241.3 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5f625aa-85f6-4411-bc6b-f930a79d746a")
+	)
+	(wire
+		(pts
 			(xy 101.6 148.59) (xy 101.6 152.4)
 		)
 		(stroke
@@ -4784,16 +5015,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 40.64) (xy 241.3 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f919309f-398f-4d28-b179-d0079fa245fe")
-	)
-	(wire
-		(pts
 			(xy 33.02 148.59) (xy 33.02 163.83)
 		)
 		(stroke
@@ -4811,6 +5032,16 @@
 			(type default)
 		)
 		(uuid "fe25e1de-8484-4e68-aee2-0860d9f7da6f")
+	)
+	(wire
+		(pts
+			(xy 276.86 151.13) (xy 274.32 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe7bb41f-5e3d-4d41-ac49-479cb5ba9d4c")
 	)
 	(image
 		(at 104.14 50.8)
@@ -7238,7 +7469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01641fb7-2620-4253-b44a-a1d9bed04584")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR045"
 			(at 148.59 76.2 0)
 			(effects
 				(font
@@ -7288,7 +7519,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0136")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -7304,7 +7535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05159262-ba72-4dd3-a813-8f99f76330b9")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR057"
 			(at 33.02 137.16 0)
 			(effects
 				(font
@@ -7354,7 +7585,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0120")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -7370,7 +7601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "057f33d8-18c0-44a3-aaed-a5ea4d0bb621")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR055"
 			(at 90.17 96.52 0)
 			(effects
 				(font
@@ -7420,7 +7651,74 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0147")
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 267.97 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07efd1cf-9a3f-45f6-a5b2-5d1ecd152c28")
+		(property "Reference" "#FLG03"
+			(at 267.97 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 267.97 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 267.97 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2006396d-2e27-4918-bbf1-ecc6e0f9e78b")
+		)
+		(instances
+			(project "Lark"
+				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -7428,7 +7726,7 @@
 	)
 	(symbol
 		(lib_id "SCHURTER Inc:3413.0326.22")
-		(at 53.34 39.37 90)
+		(at 58.42 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7436,7 +7734,7 @@
 		(dnp no)
 		(uuid "0abd611c-30ee-461b-bb42-8877b9d0ee35")
 		(property "Reference" "F1"
-			(at 51.816 37.084 90)
+			(at 56.896 37.084 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7444,7 +7742,7 @@
 			)
 		)
 		(property "Value" "7A Slow Blow"
-			(at 57.15 41.656 90)
+			(at 62.23 41.656 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7452,7 +7750,7 @@
 			)
 		)
 		(property "Footprint" "SCHURTER Inc:3413.0326.22"
-			(at 72.136 39.37 0)
+			(at 77.216 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7461,7 +7759,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.schurter.com/en/datasheet/typ_UST_1206.pdf"
-			(at 66.04 39.37 0)
+			(at 71.12 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7470,7 +7768,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 70.358 39.624 0)
+			(at 75.438 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7479,7 +7777,7 @@
 			)
 		)
 		(property "MPN" "3413.0326.22"
-			(at 68.58 39.37 0)
+			(at 73.66 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7512,7 +7810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b36c934-f850-4fc5-bead-7c1c1dd68fb2")
-		(property "Reference" "#PWR0149"
+		(property "Reference" "#PWR043"
 			(at 119.38 39.37 0)
 			(effects
 				(font
@@ -7562,7 +7860,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0149")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -7570,15 +7868,15 @@
 	)
 	(symbol
 		(lib_id "Stackpole:Resistor")
-		(at 228.6 38.1 0)
+		(at 241.3 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0d16df2a-f02b-4065-a7f8-327dc1861237")
-		(property "Reference" "R47"
-			(at 231.14 36.8299 0)
+		(property "Reference" "R19"
+			(at 243.84 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7587,7 +7885,7 @@
 			)
 		)
 		(property "Value" "402kΩ"
-			(at 231.14 39.3699 0)
+			(at 243.84 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7596,7 +7894,7 @@
 			)
 		)
 		(property "Footprint" "Stackpole:R_0603"
-			(at 229.616 38.354 90)
+			(at 242.316 38.354 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7605,7 +7903,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 38.1 0)
+			(at 241.3 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7614,7 +7912,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 228.6 38.1 0)
+			(at 241.3 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7623,7 +7921,7 @@
 			)
 		)
 		(property "Power" "1/10W"
-			(at 234.188 41.656 0)
+			(at 246.888 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7632,7 +7930,7 @@
 			)
 		)
 		(property "Case" "0603"
-			(at 233.426 41.656 0)
+			(at 246.126 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7640,7 +7938,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT402K"
-			(at 228.6 38.1 0)
+			(at 241.3 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7657,7 +7955,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "R47")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -7672,7 +7970,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d2b97a5-46a7-4683-a74c-4ba0c52ac5e3")
-		(property "Reference" "R49"
+		(property "Reference" "R22"
 			(at 92.71 58.4199 0)
 			(effects
 				(font
@@ -7752,7 +8050,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "R49")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -7768,7 +8066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d40152a-12be-4bbc-adc0-f67aaa0132a4")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR039"
 			(at 241.3 35.56 0)
 			(effects
 				(font
@@ -7818,7 +8116,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0130")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -7826,7 +8124,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 67.31 35.56 0)
+		(at 77.47 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7834,8 +8132,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1933163e-a467-4f2f-9844-52f9543e634f")
-		(property "Reference" "#PWR0144"
-			(at 67.31 39.37 0)
+		(property "Reference" "#PWR041"
+			(at 77.47 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7844,7 +8142,7 @@
 			)
 		)
 		(property "Value" "+24VBC"
-			(at 67.31 30.48 0)
+			(at 77.47 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7852,7 +8150,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 35.56 0)
+			(at 77.47 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7861,7 +8159,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 35.56 0)
+			(at 77.47 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7870,7 +8168,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 67.31 35.56 0)
+			(at 77.47 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7884,7 +8182,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0144")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -7899,7 +8197,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a4feefb-b25d-4cd2-9ee0-b3fa2e312b43")
-		(property "Reference" "C28"
+		(property "Reference" "C7"
 			(at 163.576 48.26 0)
 			(effects
 				(font
@@ -7970,7 +8268,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "C28")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7986,7 +8284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ad5a278-26eb-4cc6-ac7d-a47b7c942db2")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR074"
 			(at 101.6 170.18 0)
 			(effects
 				(font
@@ -8036,7 +8334,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0122")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -8044,7 +8342,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 218.44 148.59 0)
+		(at 274.32 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8052,8 +8350,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e8798e9-664a-4052-a70a-79e6086a92ba")
-		(property "Reference" "#PWR0155"
-			(at 218.44 152.4 0)
+		(property "Reference" "#PWR066"
+			(at 274.32 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8062,7 +8360,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 218.44 143.51 0)
+			(at 274.32 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8070,7 +8368,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 148.59 0)
+			(at 274.32 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8079,7 +8377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 148.59 0)
+			(at 274.32 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8088,7 +8386,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 218.44 148.59 0)
+			(at 274.32 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8102,7 +8400,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0155")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -8118,7 +8416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20f86c8d-d07e-432f-b41c-2f8edc7e1d8d")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR068"
 			(at 129.54 168.91 0)
 			(effects
 				(font
@@ -8168,7 +8466,74 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0139")
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 250.19 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22076f43-305b-49d7-841a-e0e24bd03bf2")
+		(property "Reference" "#FLG01"
+			(at 250.19 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 250.19 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 250.19 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af4f07cb-15d7-46ef-b619-8bcf8a8c375c")
+		)
+		(instances
+			(project "Lark"
+				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -8183,7 +8548,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2863a851-5400-4860-a2d6-ca3a2812ac7d")
-		(property "Reference" "C26"
+		(property "Reference" "C9"
 			(at 266.446 49.53 0)
 			(effects
 				(font
@@ -8254,7 +8619,7 @@
 		(instances
 			(project ""
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "C26")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -8269,7 +8634,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3043cad3-2589-4faa-a5e1-cad9f893934b")
-		(property "Reference" "R45"
+		(property "Reference" "R23"
 			(at 229.87 60.9599 0)
 			(effects
 				(font
@@ -8349,7 +8714,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "R45")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -8364,7 +8729,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30fe1238-1666-4db5-93d7-b6b26f0737ac")
-		(property "Reference" "C23"
+		(property "Reference" "C11"
 			(at 219.456 62.992 0)
 			(effects
 				(font
@@ -8435,7 +8800,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "C23")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -8450,7 +8815,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34e40967-dd16-4c1c-9f13-d6fc82d5607a")
-		(property "Reference" "L1"
+		(property "Reference" "L2"
 			(at 78.232 141.732 90)
 			(effects
 				(font
@@ -8511,7 +8876,7 @@
 		(instances
 			(project ""
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "L1")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -8526,7 +8891,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "362abb04-7ebb-4db6-8f6a-4e07575b6ea0")
-		(property "Reference" "R44"
+		(property "Reference" "R28"
 			(at 104.14 139.6999 0)
 			(effects
 				(font
@@ -8606,7 +8971,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "R44")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -8614,7 +8979,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 200.66 148.59 0)
+		(at 256.54 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8622,8 +8987,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36674519-eb3b-431e-b5ce-336aa1d51ff4")
-		(property "Reference" "#PWR0151"
-			(at 200.66 152.4 0)
+		(property "Reference" "#PWR064"
+			(at 256.54 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8632,7 +8997,7 @@
 			)
 		)
 		(property "Value" "+4V"
-			(at 200.66 143.51 0)
+			(at 256.54 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8640,7 +9005,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 148.59 0)
+			(at 256.54 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8649,7 +9014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 148.59 0)
+			(at 256.54 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8658,7 +9023,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 200.66 148.59 0)
+			(at 256.54 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8672,7 +9037,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0151")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -8680,15 +9045,15 @@
 	)
 	(symbol
 		(lib_id "Murata Electronics:Capacitor")
-		(at 241.3 38.1 180)
+		(at 228.6 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3809201e-7020-4f59-8e5b-ddc52a604b43")
-		(property "Reference" "C25"
-			(at 247.65 36.322 0)
+		(property "Reference" "C5"
+			(at 234.95 36.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8697,7 +9062,7 @@
 			)
 		)
 		(property "Value" "18pF"
-			(at 248.666 38.862 0)
+			(at 235.966 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8706,7 +9071,7 @@
 			)
 		)
 		(property "Footprint" "Murata Electronics:C_0603"
-			(at 241.3 38.1 0)
+			(at 228.6 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8715,7 +9080,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 241.3 38.1 0)
+			(at 228.6 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8724,7 +9089,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 241.3 38.1 0)
+			(at 228.6 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8733,7 +9098,7 @@
 			)
 		)
 		(property "Case" "0603"
-			(at 246.126 40.894 0)
+			(at 233.426 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8741,7 +9106,7 @@
 			)
 		)
 		(property "MPN" "GRM1885C2E180JW07D"
-			(at 241.3 38.1 0)
+			(at 228.6 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8758,7 +9123,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "C25")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -8773,7 +9138,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "399dd42e-dd46-4234-a4d1-6dcd01f2c478")
-		(property "Reference" "C22"
+		(property "Reference" "C16"
 			(at 90.17 152.4062 0)
 			(effects
 				(font
@@ -8844,7 +9209,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "C22")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -8860,7 +9225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4071eeb3-ba9e-42f2-aa55-c44c4f8bf959")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR058"
 			(at 87.63 137.16 0)
 			(effects
 				(font
@@ -8910,7 +9275,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0124")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -8918,7 +9283,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 209.55 148.59 0)
+		(at 265.43 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8926,8 +9291,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42c147e3-3ddf-4e96-9fc0-958ef4892bb8")
-		(property "Reference" "#PWR0154"
-			(at 209.55 152.4 0)
+		(property "Reference" "#PWR065"
+			(at 265.43 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8936,7 +9301,7 @@
 			)
 		)
 		(property "Value" "+24VBC"
-			(at 209.55 143.51 0)
+			(at 265.43 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8944,7 +9309,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 148.59 0)
+			(at 265.43 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8953,7 +9318,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 148.59 0)
+			(at 265.43 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8962,7 +9327,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 209.55 148.59 0)
+			(at 265.43 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8976,7 +9341,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0154")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -8992,7 +9357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45e1c697-b117-4654-890c-c1382e41244a")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR048"
 			(at 227.33 76.2 0)
 			(effects
 				(font
@@ -9042,7 +9407,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0128")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -9058,7 +9423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48183790-d588-4cd3-890c-e91563e0d04c")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR040"
 			(at 252.73 35.56 0)
 			(effects
 				(font
@@ -9108,7 +9473,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0133")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -9124,7 +9489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48e2e885-f763-4000-9db8-86759c54bc01")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR073"
 			(at 87.63 170.18 0)
 			(effects
 				(font
@@ -9174,7 +9539,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0123")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -9189,7 +9554,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d0bc299-2e29-4c69-9336-55954513c296")
-		(property "Reference" "C31"
+		(property "Reference" "C15"
 			(at 165.1 151.1362 0)
 			(effects
 				(font
@@ -9260,7 +9625,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "C31")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -9276,7 +9641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dd58016-a373-4496-8756-090cfb1d8741")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR071"
 			(at 33.02 170.18 0)
 			(effects
 				(font
@@ -9326,7 +9691,74 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0121")
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 276.86 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58f8ca49-2fc5-4f4c-ae4b-7691e894c3b3")
+		(property "Reference" "#FLG04"
+			(at 276.86 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 276.86 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 276.86 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4227a682-79b1-4286-adc5-55749d1d2e1a")
+		)
+		(instances
+			(project "Lark"
+				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -9341,7 +9773,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d1c49dd-9d1e-4490-9c15-4d134bbc99cc")
-		(property "Reference" "U13"
+		(property "Reference" "U7"
 			(at 137.668 138.43 0)
 			(effects
 				(font
@@ -9417,7 +9849,7 @@
 		(instances
 			(project ""
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "U13")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -9432,7 +9864,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "623b12ce-5a9f-4ffc-b84d-8dc6d458a5fc")
-		(property "Reference" "U12"
+		(property "Reference" "U5"
 			(at 179.578 41.91 0)
 			(effects
 				(font
@@ -9514,7 +9946,7 @@
 		(instances
 			(project ""
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "U12")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -9529,7 +9961,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6508470d-efec-45c1-ad53-14e2d5458c30")
-		(property "Reference" "R51"
+		(property "Reference" "R25"
 			(at 75.946 68.58 90)
 			(effects
 				(font
@@ -9609,7 +10041,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "R51")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -9625,7 +10057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f7590fc-062c-48fe-97e8-854fd7fe82c2")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR047"
 			(at 171.45 76.2 0)
 			(effects
 				(font
@@ -9675,7 +10107,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0126")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -9691,7 +10123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72e78645-3eee-4c7e-bd47-4e5bc5e521fb")
-		(property "Reference" "L2"
+		(property "Reference" "L1"
 			(at 214.63 50.7999 0)
 			(effects
 				(font
@@ -9754,7 +10186,7 @@
 		(instances
 			(project ""
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "L2")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -9769,7 +10201,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7878c170-b4b6-4478-91d9-a0058bdc9994")
-		(property "Reference" "C27"
+		(property "Reference" "C8"
 			(at 255.016 49.53 0)
 			(effects
 				(font
@@ -9840,7 +10272,7 @@
 		(instances
 			(project ""
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "C27")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -9856,7 +10288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80b025e2-b72c-474f-9ce2-321bea8b9a4f")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR070"
 			(at 21.59 170.18 0)
 			(effects
 				(font
@@ -9906,7 +10338,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0119")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -9922,7 +10354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80c1c475-12aa-4c2a-ad43-4ddd90d56841")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR050"
 			(at 252.73 76.2 0)
 			(effects
 				(font
@@ -9972,7 +10404,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0132")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -9987,7 +10419,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8fa56ba0-6568-4eda-ba4d-282b40d50872")
-		(property "Reference" "R48"
+		(property "Reference" "R21"
 			(at 80.01 44.4499 0)
 			(effects
 				(font
@@ -10067,7 +10499,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "R48")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -10083,7 +10515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92a982a1-adbe-4e1c-b8f9-853d21c8a436")
-		(property "Reference" "#PWR0150"
+		(property "Reference" "#PWR044"
 			(at 31.75 62.23 0)
 			(effects
 				(font
@@ -10133,7 +10565,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0150")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -10149,7 +10581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94a4bada-3df7-4c74-aed7-7a32e1e8b7c5")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR046"
 			(at 161.29 76.2 0)
 			(effects
 				(font
@@ -10199,7 +10631,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0137")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -10214,7 +10646,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9930c683-1481-46c6-b164-9a5261156444")
-		(property "Reference" "R43"
+		(property "Reference" "R29"
 			(at 104.14 154.9399 0)
 			(effects
 				(font
@@ -10294,7 +10726,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "R43")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -10309,7 +10741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9adaee64-4c05-42b0-8eb7-f04b2c34044f")
-		(property "Reference" "C30"
+		(property "Reference" "C14"
 			(at 121.92 151.1362 0)
 			(effects
 				(font
@@ -10380,7 +10812,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "C30")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -10478,7 +10910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e5abedf-2581-43e7-b4ef-678d5a1ef31c")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR056"
 			(at 21.59 137.16 0)
 			(effects
 				(font
@@ -10528,7 +10960,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0118")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -10544,7 +10976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e856312-f79a-4759-9715-da59c65a19e0")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR072"
 			(at 72.39 170.18 0)
 			(effects
 				(font
@@ -10594,7 +11026,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0117")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -10602,7 +11034,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 218.44 152.4 180)
+		(at 274.32 152.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10610,7 +11042,7 @@
 		(dnp no)
 		(uuid "a1ecb8f1-92d8-4202-91b9-c7cc94c367b0")
 		(property "Reference" "TP11"
-			(at 216.154 157.988 0)
+			(at 272.034 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10619,7 +11051,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 216.154 160.528 0)
+			(at 272.034 160.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10629,7 +11061,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 213.36 152.4 0)
+			(at 269.24 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10638,7 +11070,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 152.4 0)
+			(at 269.24 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10647,7 +11079,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 218.44 152.4 0)
+			(at 274.32 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10677,7 +11109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6c2745d-bf54-458f-8fdb-b849c768d993")
-		(property "Reference" "#PWR0148"
+		(property "Reference" "#PWR052"
 			(at 31.75 96.52 0)
 			(effects
 				(font
@@ -10727,7 +11159,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0148")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -10743,7 +11175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae548583-8529-46d5-8c05-f4a88a949212")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR051"
 			(at 264.16 76.2 0)
 			(effects
 				(font
@@ -10793,93 +11225,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0134")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TDK Corporation:C2012X5R1V226M125AC")
-		(at 67.31 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ae734f42-0695-47c7-a28b-ed6babb50dfa")
-		(property "Reference" "C32"
-			(at 69.596 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22µF"
-			(at 69.596 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TDK Corporation:C2012X5R1V226M125AC"
-			(at 68.2752 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
-			(at 67.564 61.214 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 67.31 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C2012X5R1V226M125AC"
-			(at 67.564 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0805"
-			(at 72.136 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a3d84ba4-6fd4-4427-9e79-6dfd9719cae1")
-		)
-		(pin "2"
-			(uuid "c8a196a4-d41b-41dd-b806-399369241ec4")
-		)
-		(instances
-			(project "Lark"
-				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "C32")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -10887,7 +11233,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 191.77 148.59 0)
+		(at 247.65 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10895,8 +11241,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b79b7088-10ea-49b9-abb3-34199a42ffcd")
-		(property "Reference" "#PWR0153"
-			(at 191.77 152.4 0)
+		(property "Reference" "#PWR063"
+			(at 247.65 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10905,7 +11251,7 @@
 			)
 		)
 		(property "Value" "+3.3VBC"
-			(at 191.77 143.51 0)
+			(at 247.65 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10913,7 +11259,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 148.59 0)
+			(at 247.65 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10922,7 +11268,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 148.59 0)
+			(at 247.65 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10931,7 +11277,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 191.77 148.59 0)
+			(at 247.65 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10945,7 +11291,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0153")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -10961,7 +11307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b941ef7e-5ae9-44bb-aeda-74dcfd2241a4")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR069"
 			(at 162.56 168.91 0)
 			(effects
 				(font
@@ -11011,7 +11357,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0141")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -11026,7 +11372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c06d87ca-7393-4ab6-a670-c88bebe8dc3a")
-		(property "Reference" "C24"
+		(property "Reference" "C10"
 			(at 233.68 51.308 0)
 			(effects
 				(font
@@ -11097,7 +11443,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "C24")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -11112,7 +11458,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c30adec6-e404-4de7-907e-ac8cc29f6996")
-		(property "Reference" "C29"
+		(property "Reference" "C6"
 			(at 154.686 47.752 0)
 			(effects
 				(font
@@ -11183,7 +11529,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "C29")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -11199,7 +11545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb269132-7932-4494-b050-5b2c2cebc6d9")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR038"
 			(at 228.6 35.56 0)
 			(effects
 				(font
@@ -11249,7 +11595,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0131")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -11265,7 +11611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb5ab9a5-3007-4f35-8e80-71c85bf3a3f0")
-		(property "Reference" "#PWR0146"
+		(property "Reference" "#PWR054"
 			(at 67.31 96.52 0)
 			(effects
 				(font
@@ -11315,7 +11661,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0146")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -11323,15 +11669,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 182.88 152.4 180)
+		(at 238.76 152.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "cb872712-35ed-45c5-b8e9-08cb98f232ca")
-		(property "Reference" "TP8"
-			(at 181.356 157.988 0)
+		(property "Reference" "TP7"
+			(at 237.236 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11340,7 +11686,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 181.356 160.528 0)
+			(at 237.236 160.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11350,7 +11696,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 177.8 152.4 0)
+			(at 233.68 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11359,7 +11705,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 152.4 0)
+			(at 233.68 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11368,7 +11714,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 182.88 152.4 0)
+			(at 238.76 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11382,7 +11728,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "TP8")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -11397,7 +11743,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cccc327d-73ce-4295-a7a3-5ae02285ff16")
-		(property "Reference" "C21"
+		(property "Reference" "C13"
 			(at 24.13 143.5162 0)
 			(effects
 				(font
@@ -11468,7 +11814,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "C21")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -11483,7 +11829,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3c64429-8d6d-4c40-b84f-0a7eec92059c")
-		(property "Reference" "U11"
+		(property "Reference" "U6"
 			(at 43.688 137.16 0)
 			(effects
 				(font
@@ -11556,7 +11902,7 @@
 		(instances
 			(project ""
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "U11")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -11564,15 +11910,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 191.77 152.4 180)
+		(at 247.65 152.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d73ef373-7ec6-4368-9896-bb9219fd89d6")
-		(property "Reference" "TP12"
-			(at 189.738 157.988 0)
+		(property "Reference" "TP8"
+			(at 245.618 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11581,7 +11927,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 189.738 160.528 0)
+			(at 245.618 160.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11591,7 +11937,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 186.69 152.4 0)
+			(at 242.57 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11600,7 +11946,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 152.4 0)
+			(at 242.57 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11609,7 +11955,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 191.77 152.4 0)
+			(at 247.65 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11623,7 +11969,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "TP12")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -11639,7 +11985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd467cc8-3847-48ae-8a97-9a518ec8624e")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR037"
 			(at 213.36 35.56 0)
 			(effects
 				(font
@@ -11689,7 +12035,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0127")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -11705,7 +12051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df73a738-05f9-42e2-a4ed-b731a5320dfa")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR035"
 			(at 148.59 35.56 0)
 			(effects
 				(font
@@ -11755,7 +12101,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0135")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -11771,7 +12117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4b39e79-a0b1-450a-9a0b-f2389867544f")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR059"
 			(at 101.6 137.16 0)
 			(effects
 				(font
@@ -11821,7 +12167,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0113")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -11837,7 +12183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e62337e7-7a73-40b0-9c4b-15973fc9663a")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR061"
 			(at 162.56 137.16 0)
 			(effects
 				(font
@@ -11887,7 +12233,74 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0138")
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 259.08 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e887d891-78cf-435a-b843-4f189fb4ebb0")
+		(property "Reference" "#FLG02"
+			(at 259.08 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 259.08 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 259.08 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8609a8c2-9e0d-4f94-89d6-433970e38106")
+		)
+		(instances
+			(project "Lark"
+				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -11903,7 +12316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eab1bb15-67ae-47f4-901e-f75154d67419")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR060"
 			(at 119.38 137.16 0)
 			(effects
 				(font
@@ -11953,7 +12366,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0142")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -11969,7 +12382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef8df64e-ec1c-4081-add0-8cda0a784dbb")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR067"
 			(at 119.38 168.91 0)
 			(effects
 				(font
@@ -12019,7 +12432,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0140")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -12131,7 +12544,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3327ccb-66a6-4147-80ac-76e02fb62481")
-		(property "Reference" "R50"
+		(property "Reference" "R27"
 			(at 69.85 81.2799 0)
 			(effects
 				(font
@@ -12211,7 +12624,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "R50")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -12226,7 +12639,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4a2337e-ce14-4e02-88fd-18afd2608635")
-		(property "Reference" "R53"
+		(property "Reference" "R26"
 			(at 34.29 80.0099 0)
 			(effects
 				(font
@@ -12306,7 +12719,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "R53")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -12321,7 +12734,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f534d849-3a1c-4d55-9274-f9f9271ea673")
-		(property "Reference" "D18"
+		(property "Reference" "D5"
 			(at 34.544 68.326 90)
 			(effects
 				(font
@@ -12384,7 +12797,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "D18")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -12399,7 +12812,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5de5d3a-d273-44d9-aed3-3af352d9bbdd")
-		(property "Reference" "R52"
+		(property "Reference" "R20"
 			(at 121.666 41.402 0)
 			(effects
 				(font
@@ -12478,7 +12891,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "R52")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -12494,7 +12907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5e06155-c982-4b31-a199-2201a8e46680")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR042"
 			(at 109.22 39.37 0)
 			(effects
 				(font
@@ -12544,7 +12957,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0145")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -12560,7 +12973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7020ce3-2659-4094-9942-47359a93cf88")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR053"
 			(at 44.45 96.52 0)
 			(effects
 				(font
@@ -12610,7 +13023,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0143")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -12626,7 +13039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f76a8e0c-dd86-4967-bf97-c734420e344c")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR036"
 			(at 171.45 35.56 0)
 			(effects
 				(font
@@ -12676,7 +13089,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0125")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -12684,7 +13097,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 200.66 152.4 180)
+		(at 256.54 152.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12692,7 +13105,7 @@
 		(dnp no)
 		(uuid "f8241c9c-4a31-4a78-becc-643948837640")
 		(property "Reference" "TP9"
-			(at 199.136 158.242 0)
+			(at 255.016 158.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12701,7 +13114,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 199.136 160.782 0)
+			(at 255.016 160.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12711,7 +13124,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 195.58 152.4 0)
+			(at 251.46 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12720,7 +13133,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 152.4 0)
+			(at 251.46 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12729,7 +13142,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 200.66 152.4 0)
+			(at 256.54 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12751,7 +13164,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 182.88 148.59 0)
+		(at 238.76 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12759,8 +13172,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f84a180a-d2ce-4203-97c5-8827df3350b2")
-		(property "Reference" "#PWR0152"
-			(at 182.88 152.4 0)
+		(property "Reference" "#PWR062"
+			(at 238.76 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12769,7 +13182,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 182.88 143.51 0)
+			(at 238.76 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12777,7 +13190,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 148.59 0)
+			(at 238.76 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12786,7 +13199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 148.59 0)
+			(at 238.76 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12795,7 +13208,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 182.88 148.59 0)
+			(at 238.76 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12809,7 +13222,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0152")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -12824,7 +13237,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8662465-a092-44a9-b8f5-3ce15534b1da")
-		(property "Reference" "R46"
+		(property "Reference" "R24"
 			(at 243.84 60.9599 0)
 			(effects
 				(font
@@ -12904,7 +13317,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "R46")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -12920,7 +13333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f94e4ad0-1bd9-4bae-b857-7a9f3c58106c")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR049"
 			(at 241.3 76.2 0)
 			(effects
 				(font
@@ -12970,7 +13383,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "#PWR0129")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -12978,7 +13391,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 209.55 152.4 180)
+		(at 265.43 152.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12986,7 +13399,7 @@
 		(dnp no)
 		(uuid "fac59fdc-3380-48ff-b6e6-6516deead31b")
 		(property "Reference" "TP10"
-			(at 207.264 157.988 0)
+			(at 263.144 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12995,7 +13408,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 207.264 160.528 0)
+			(at 263.144 160.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13005,7 +13418,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 204.47 152.4 0)
+			(at 260.35 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13014,7 +13427,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 152.4 0)
+			(at 260.35 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13023,7 +13436,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 209.55 152.4 0)
+			(at 265.43 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13052,7 +13465,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdd64a6f-8d93-411e-be28-10af7eaf5b4b")
-		(property "Reference" "C20"
+		(property "Reference" "C12"
 			(at 67.818 130.302 90)
 			(effects
 				(font
@@ -13123,7 +13536,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "C20")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -13138,7 +13551,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe4b02d9-e982-41e6-91dd-e57a5f8c5800")
-		(property "Reference" "J8"
+		(property "Reference" "J1"
 			(at 27.686 36.576 0)
 			(effects
 				(font
@@ -13199,10 +13612,16 @@
 		(pin "2"
 			(uuid "b1f7c78f-ee71-4db4-ba40-756604f51032")
 		)
+		(pin "SH1"
+			(uuid "8daada55-dc14-4337-b6b2-19906d6b5167")
+		)
+		(pin "SH2"
+			(uuid "4890aef1-4112-4d53-98b7-f4931cfbf771")
+		)
 		(instances
 			(project ""
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "J8")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -13218,7 +13637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff788a16-fa64-4a64-abbb-cce97f19b118")
-		(property "Reference" "D17"
+		(property "Reference" "D6"
 			(at 74.93 153.3524 90)
 			(effects
 				(font
@@ -13281,7 +13700,7 @@
 		(instances
 			(project ""
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
-					(reference "D17")
+					(reference "D6")
 					(unit 1)
 				)
 			)

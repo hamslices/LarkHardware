@@ -730,6 +730,10 @@
     [
       "f3d772fb-b064-42ef-8815-28d16dd8d37f",
       "Auxiliary"
+    ],
+    [
+      "510bbd44-ee11-40bc-952d-6cd0def4c817",
+      "MCU"
     ]
   ],
   "text_variables": {}
