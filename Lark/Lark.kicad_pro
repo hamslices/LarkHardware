@@ -453,7 +453,6 @@
       "Microchip",
       "onsemi",
       "Allegro MicroSystems",
-      "KEMET",
       "STMicroelectronics",
       "Molex",
       "Panasonic Electronic Components",
@@ -467,7 +466,8 @@
       "SCHURTER Inc",
       "Vishay Siliconix",
       "Diodes Incorporated",
-      "Winbond Electronics"
+      "Winbond Electronics",
+      "Littelfuse Inc"
     ],
     "pinned_symbol_libs": [
       "Stackpole",
@@ -488,7 +488,8 @@
       "Vishay Siliconix",
       "SCHURTER Inc",
       "Diodes Incorporated",
-      "Winbond Electronics"
+      "Winbond Electronics",
+      "Littelfuse Inc"
     ]
   },
   "meta": {
@@ -677,7 +678,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "../PDF/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

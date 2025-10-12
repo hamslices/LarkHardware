@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "688a85fe-b3a8-41db-aa11-bd77c4315cf3")
+	(uuid "577b4940-1ab5-43e6-8527-f7f22b69e20e")
 	(paper "A4")
 	(title_block
 		(title "Lark Print Engine")
@@ -876,7 +876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16bb534b-3888-4f7b-b3ea-7a70aee8d824")
-		(property "Reference" "#PWR0180"
+		(property "Reference" "#PWR0184"
 			(at 168.91 111.76 0)
 			(effects
 				(font
@@ -926,7 +926,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/510bbd44-ee11-40bc-952d-6cd0def4c817/fbf20d92-3dc5-48bd-8ff0-5e0b8683d6ab"
-					(reference "#PWR0180")
+					(reference "#PWR0184")
 					(unit 1)
 				)
 			)
@@ -942,7 +942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "299a9ef5-25e1-4650-8d4a-8092db166e5f")
-		(property "Reference" "#PWR0179"
+		(property "Reference" "#PWR0183"
 			(at 168.91 86.36 0)
 			(effects
 				(font
@@ -992,7 +992,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/510bbd44-ee11-40bc-952d-6cd0def4c817/fbf20d92-3dc5-48bd-8ff0-5e0b8683d6ab"
-					(reference "#PWR0179")
+					(reference "#PWR0183")
 					(unit 1)
 				)
 			)
@@ -1099,7 +1099,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b6b0f66e-b1da-48b8-9346-7cc5c528593f")
 		(property "Reference" "C45"
 			(at 173.736 93.472 0)

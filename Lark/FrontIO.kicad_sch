@@ -2046,7 +2046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11c18804-8a11-4777-ad6a-bd0ff1e1e144")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0143"
 			(at 36.83 129.54 0)
 			(effects
 				(font
@@ -2096,7 +2096,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/952214a1-3201-40ca-8c5a-55526392db8f"
-					(reference "#PWR0139")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -2112,7 +2112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cd6557d-01ae-4c7d-88e5-a39e98d3d037")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0141"
 			(at 80.01 72.39 0)
 			(effects
 				(font
@@ -2162,7 +2162,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/952214a1-3201-40ca-8c5a-55526392db8f"
-					(reference "#PWR0137")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -2177,7 +2177,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ebd9350-6af4-4136-ac14-99ee5d083d6c")
-		(property "Reference" "R50"
+		(property "Reference" "R53"
 			(at 51.816 104.14 90)
 			(effects
 				(font
@@ -2257,7 +2257,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/952214a1-3201-40ca-8c5a-55526392db8f"
-					(reference "R50")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -2273,7 +2273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "244e4531-ea99-40e0-a905-ec6246f4f0e3")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR0146"
 			(at 36.83 187.96 0)
 			(effects
 				(font
@@ -2323,7 +2323,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/952214a1-3201-40ca-8c5a-55526392db8f"
-					(reference "#PWR0142")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -2339,7 +2339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c0f733c-474c-49b6-9a02-5d0d9c8693b2")
-		(property "Reference" "D14"
+		(property "Reference" "D15"
 			(at 60.96 173.4501 90)
 			(effects
 				(font
@@ -2402,7 +2402,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/952214a1-3201-40ca-8c5a-55526392db8f"
-					(reference "D14")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -2418,7 +2418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e3eb368-1659-476a-85cf-0112b97e077e")
-		(property "Reference" "D11"
+		(property "Reference" "D12"
 			(at 62.23 55.3401 90)
 			(effects
 				(font
@@ -2481,7 +2481,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/952214a1-3201-40ca-8c5a-55526392db8f"
-					(reference "D11")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -2497,7 +2497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "414423af-a3fd-495d-8576-337d3bc31c8c")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0144"
 			(at 58.42 129.54 0)
 			(effects
 				(font
@@ -2547,7 +2547,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/952214a1-3201-40ca-8c5a-55526392db8f"
-					(reference "#PWR0140")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -2562,7 +2562,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f607994-54f4-4996-81bc-62f272b4b7e7")
-		(property "Reference" "R48"
+		(property "Reference" "R51"
 			(at 82.55 36.8299 0)
 			(effects
 				(font
@@ -2642,7 +2642,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/952214a1-3201-40ca-8c5a-55526392db8f"
-					(reference "R48")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -2658,7 +2658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e0082ea-46b5-4d05-9662-c19a8711bd76")
-		(property "Reference" "D12"
+		(property "Reference" "D13"
 			(at 82.55 55.3401 90)
 			(effects
 				(font
@@ -2721,7 +2721,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/952214a1-3201-40ca-8c5a-55526392db8f"
-					(reference "D12")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -2736,7 +2736,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "61dca9e9-9fc8-4677-9e5f-9a3b5eec6d06")
-		(property "Reference" "R52"
+		(property "Reference" "R55"
 			(at 51.816 162.56 90)
 			(effects
 				(font
@@ -2816,7 +2816,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/952214a1-3201-40ca-8c5a-55526392db8f"
-					(reference "R52")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -3013,7 +3013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7be1cec6-8581-43ef-b308-23dd6374c439")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR0147"
 			(at 58.42 187.96 0)
 			(effects
 				(font
@@ -3063,7 +3063,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/952214a1-3201-40ca-8c5a-55526392db8f"
-					(reference "#PWR0143")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -3165,7 +3165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81f2880e-56cf-4cad-8d5f-f98e334a24cb")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0139"
 			(at 38.1 72.39 0)
 			(effects
 				(font
@@ -3215,7 +3215,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/952214a1-3201-40ca-8c5a-55526392db8f"
-					(reference "#PWR0135")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -3231,7 +3231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ed0c0fe-6b09-4b9d-8ebb-efec4fd6a247")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0138"
 			(at 260.35 62.23 0)
 			(effects
 				(font
@@ -3281,7 +3281,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/952214a1-3201-40ca-8c5a-55526392db8f"
-					(reference "#PWR0134")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -3296,7 +3296,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a773ae57-49ea-4ca8-ba8f-ac5932f11840")
-		(property "Reference" "R47"
+		(property "Reference" "R50"
 			(at 62.23 36.8299 0)
 			(effects
 				(font
@@ -3376,7 +3376,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/952214a1-3201-40ca-8c5a-55526392db8f"
-					(reference "R47")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -3392,7 +3392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad1af4a0-5aae-4401-a026-b419deb6ed69")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0140"
 			(at 59.69 72.39 0)
 			(effects
 				(font
@@ -3442,7 +3442,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/952214a1-3201-40ca-8c5a-55526392db8f"
-					(reference "#PWR0136")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -3458,7 +3458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9b84f41-46e1-4b3e-b696-53393389444d")
-		(property "Reference" "D13"
+		(property "Reference" "D14"
 			(at 60.96 115.0301 90)
 			(effects
 				(font
@@ -3521,7 +3521,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/952214a1-3201-40ca-8c5a-55526392db8f"
-					(reference "D13")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -3537,7 +3537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bab617d7-9f89-432b-acdf-de9c3c3a1ac9")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR0145"
 			(at 36.83 152.4 0)
 			(effects
 				(font
@@ -3587,7 +3587,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/952214a1-3201-40ca-8c5a-55526392db8f"
-					(reference "#PWR0141")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -3602,7 +3602,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bddefd02-e981-4e30-824e-7c1a14cab502")
-		(property "Reference" "R46"
+		(property "Reference" "R49"
 			(at 40.64 36.8299 0)
 			(effects
 				(font
@@ -3682,7 +3682,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/952214a1-3201-40ca-8c5a-55526392db8f"
-					(reference "R46")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -3697,7 +3697,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4ed6712-e153-4c1d-84ae-1e0dab448448")
-		(property "Reference" "R51"
+		(property "Reference" "R54"
 			(at 39.37 154.9399 0)
 			(effects
 				(font
@@ -3777,7 +3777,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/952214a1-3201-40ca-8c5a-55526392db8f"
-					(reference "R51")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -3793,7 +3793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d74806c7-0c61-47e3-946e-4ba029a47006")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0137"
 			(at 260.35 33.02 0)
 			(effects
 				(font
@@ -3843,7 +3843,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/952214a1-3201-40ca-8c5a-55526392db8f"
-					(reference "#PWR0133")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -3859,7 +3859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de7f5279-704e-40a3-b509-6d305c5844a0")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0142"
 			(at 36.83 93.98 0)
 			(effects
 				(font
@@ -3909,7 +3909,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/952214a1-3201-40ca-8c5a-55526392db8f"
-					(reference "#PWR0138")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -3925,7 +3925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eae47224-b38a-499b-aae6-0ea5458aa4a2")
-		(property "Reference" "D10"
+		(property "Reference" "D11"
 			(at 40.64 55.3401 90)
 			(effects
 				(font
@@ -3988,7 +3988,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/952214a1-3201-40ca-8c5a-55526392db8f"
-					(reference "D10")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -4003,7 +4003,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1ba854a-e83e-4d14-a360-2f9ad087a8fc")
-		(property "Reference" "R49"
+		(property "Reference" "R52"
 			(at 39.37 96.5199 0)
 			(effects
 				(font
@@ -4083,7 +4083,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/952214a1-3201-40ca-8c5a-55526392db8f"
-					(reference "R49")
+					(reference "R52")
 					(unit 1)
 				)
 			)

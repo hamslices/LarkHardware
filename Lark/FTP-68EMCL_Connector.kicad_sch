@@ -5240,7 +5240,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17d9ac43-4b7f-4058-9d3a-bfbb96e51928")
-		(property "Reference" "R43"
+		(property "Reference" "R46"
 			(at 50.546 125.73 90)
 			(effects
 				(font
@@ -5320,7 +5320,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/6e291d34-e508-4d3b-a2e9-20acfef2b928"
-					(reference "R43")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -5336,7 +5336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33348544-1acc-4128-ad69-13b361b85ffe")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0113"
 			(at 185.42 31.75 0)
 			(effects
 				(font
@@ -5386,7 +5386,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/6e291d34-e508-4d3b-a2e9-20acfef2b928"
-					(reference "#PWR0109")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -5488,7 +5488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43c62bd8-4760-4559-ab5e-5ad70bb0b26b")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0114"
 			(at 210.82 31.75 0)
 			(effects
 				(font
@@ -5538,7 +5538,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/6e291d34-e508-4d3b-a2e9-20acfef2b928"
-					(reference "#PWR0110")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -5553,7 +5553,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50f0f572-81ce-4fd3-89a1-d1eeb1e55cc1")
-		(property "Reference" "R42"
+		(property "Reference" "R45"
 			(at 38.1 118.1099 0)
 			(effects
 				(font
@@ -5633,7 +5633,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/6e291d34-e508-4d3b-a2e9-20acfef2b928"
-					(reference "R42")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -5649,7 +5649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "600f12d4-114a-47d6-a682-02f34e66ba7a")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0118"
 			(at 208.28 93.98 0)
 			(effects
 				(font
@@ -5699,7 +5699,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/6e291d34-e508-4d3b-a2e9-20acfef2b928"
-					(reference "#PWR0114")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -5715,7 +5715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e9f403a-14f0-4ead-a30a-fa2f6805367a")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0117"
 			(at 187.96 93.98 0)
 			(effects
 				(font
@@ -5765,7 +5765,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/6e291d34-e508-4d3b-a2e9-20acfef2b928"
-					(reference "#PWR0113")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -5781,7 +5781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f79b52a-2825-474f-a893-35ef39edbcae")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0120"
 			(at 88.9 121.92 0)
 			(effects
 				(font
@@ -5831,7 +5831,180 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/6e291d34-e508-4d3b-a2e9-20acfef2b928"
-					(reference "#PWR0116")
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JST Sales America Inc:B34B-PHDSS")
+		(at 196.85 59.69 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73d45900-d737-43c2-9646-10b5247bde50")
+		(property "Reference" "J4"
+			(at 196.342 36.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B34B-PHDSS"
+			(at 198.12 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JST Sales America Inc:JST_PHD_B34B-PHDSS_2x17_P2.00mm_Vertical"
+			(at 197.358 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePHD.pdf"
+			(at 197.612 30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Through Hole 34 position 0.079\" (2.00mm)"
+			(at 198.628 33.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B34B-PHDSS"
+			(at 198.628 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "848603a8-13a4-4ee7-9ecd-5913e522f2a5")
+		)
+		(pin "11"
+			(uuid "fa3cd588-f53d-40bc-8d9f-ef3ba4cc07f3")
+		)
+		(pin "21"
+			(uuid "b9079d5f-a14a-49e4-b7d9-36232a1a66f1")
+		)
+		(pin "5"
+			(uuid "c3ea8824-9410-4d29-b677-a9d70b1b8408")
+		)
+		(pin "3"
+			(uuid "d8ab08ad-18a6-4a47-b186-8973cfed8a65")
+		)
+		(pin "13"
+			(uuid "acd79e4d-ffd0-4f0c-af2f-19c175639ddb")
+		)
+		(pin "23"
+			(uuid "5567cba0-8ff6-46c8-9609-801b35f0bbd6")
+		)
+		(pin "27"
+			(uuid "aa5cb794-8117-435f-901e-44deeca6ca05")
+		)
+		(pin "1"
+			(uuid "81f414fb-75d8-4733-9184-952b7706e27c")
+		)
+		(pin "9"
+			(uuid "1e152748-2ff3-41dc-97a9-0c81cc3d0b52")
+		)
+		(pin "17"
+			(uuid "3cc2253c-a9b2-4a45-a547-b8d1bbc6b2b6")
+		)
+		(pin "15"
+			(uuid "a08515c5-1a85-44f6-b63b-8f626fb54c8e")
+		)
+		(pin "19"
+			(uuid "29e4d8c1-6980-4aa0-932c-b4e7a3413c2d")
+		)
+		(pin "25"
+			(uuid "eddf54a4-b3bb-432f-8922-d7e61f13a3a3")
+		)
+		(pin "29"
+			(uuid "b9e688b9-b97b-48f5-8a1d-e460f9a399a7")
+		)
+		(pin "31"
+			(uuid "a1d8a83b-09f7-405e-8940-10433eef90d0")
+		)
+		(pin "33"
+			(uuid "cc63ea81-5b58-4da3-87b6-88dfd562199d")
+		)
+		(pin "2"
+			(uuid "67fcd4af-c6b7-45ef-b861-46236a2b39f1")
+		)
+		(pin "10"
+			(uuid "b1802673-ac17-49c0-b748-ce5365ec8378")
+		)
+		(pin "4"
+			(uuid "681f3caf-6431-4bef-b7a7-0808034fcf62")
+		)
+		(pin "8"
+			(uuid "25b73742-7795-4736-a6de-b50cb70675ea")
+		)
+		(pin "6"
+			(uuid "51752d4b-2977-430c-b22c-7d7027bce4e0")
+		)
+		(pin "12"
+			(uuid "db2841f6-5ec3-418c-845b-cd72adf85694")
+		)
+		(pin "16"
+			(uuid "f83cec0c-db78-4ab7-985c-9339ad0151e1")
+		)
+		(pin "22"
+			(uuid "94a09129-4a1e-46cf-a3c6-c4d1a738ad0e")
+		)
+		(pin "24"
+			(uuid "195d03ab-5191-4ae4-950d-ac6e828cd1a3")
+		)
+		(pin "26"
+			(uuid "5af0e74f-5d5e-4967-9960-2f2602408493")
+		)
+		(pin "28"
+			(uuid "edc30e16-8596-4cfc-ba36-293602615987")
+		)
+		(pin "30"
+			(uuid "18ac2633-de5a-4ab5-bc93-87b3fed44730")
+		)
+		(pin "18"
+			(uuid "f6fa0ec6-a693-41ec-80ad-aa1cee3a0a3a")
+		)
+		(pin "20"
+			(uuid "dd8d6e9a-037c-40ef-99d7-bd59b2e4b1ff")
+		)
+		(pin "34"
+			(uuid "4037517f-9606-4de9-9204-c018ce09feea")
+		)
+		(pin "14"
+			(uuid "9fc8a902-04b1-4ede-94e2-260c4ed2cd9b")
+		)
+		(pin "32"
+			(uuid "55786bf5-960e-4a2b-8098-79cf2e7cbfbd")
+		)
+		(instances
+			(project "Lark"
+				(path "/a351af57-4353-47da-9f45-7393de572768/6e291d34-e508-4d3b-a2e9-20acfef2b928"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5847,7 +6020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75ef1cbf-8275-49aa-a144-247a5359a8f4")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0115"
 			(at 180.34 38.1 0)
 			(effects
 				(font
@@ -5897,7 +6070,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/6e291d34-e508-4d3b-a2e9-20acfef2b928"
-					(reference "#PWR0111")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -5913,7 +6086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b025e1d-5213-4e47-90ff-7e8b38c3e3b0")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0119"
 			(at 35.56 115.57 0)
 			(effects
 				(font
@@ -5963,7 +6136,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/6e291d34-e508-4d3b-a2e9-20acfef2b928"
-					(reference "#PWR0115")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -6058,7 +6231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acd19469-eb8e-4ace-95bf-26b11b635380")
-		(property "Reference" "D9"
+		(property "Reference" "D10"
 			(at 59.69 136.6201 90)
 			(effects
 				(font
@@ -6121,7 +6294,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/6e291d34-e508-4d3b-a2e9-20acfef2b928"
-					(reference "D9")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -6137,7 +6310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae5a7699-5fd8-4456-8095-57992dbff3d6")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0116"
 			(at 215.9 38.1 0)
 			(effects
 				(font
@@ -6187,180 +6360,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/6e291d34-e508-4d3b-a2e9-20acfef2b928"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JST Sales America Inc:B34B-PHDSS")
-		(at 196.85 59.69 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b98170a9-f666-4e37-9856-f6eb9c3f97c7")
-		(property "Reference" "J4"
-			(at 196.342 36.322 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B34B-PHDSS"
-			(at 198.12 82.804 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "JST Sales America Inc:JST_PHD_B34B-PHDSS_2x17_P2.00mm_Vertical"
-			(at 197.358 28.448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePHD.pdf"
-			(at 197.612 30.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Header Through Hole 34 position 0.079\" (2.00mm)"
-			(at 198.628 33.274 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "B34B-PHDSS"
-			(at 198.628 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "8c9e8ffc-1f22-44d6-9eae-630245a4d237")
-		)
-		(pin "11"
-			(uuid "adbf2bd8-9341-4f22-b37e-28dbe502a7b7")
-		)
-		(pin "21"
-			(uuid "50196b33-3454-4bb9-a31d-821925f8d3c5")
-		)
-		(pin "5"
-			(uuid "08b12026-dc09-4292-a4d9-8acf3750a9f4")
-		)
-		(pin "3"
-			(uuid "1bd954d6-e405-4642-aa75-7b91a18c1b0e")
-		)
-		(pin "13"
-			(uuid "88216f4c-5548-4e25-8318-f78614787f5e")
-		)
-		(pin "23"
-			(uuid "5b3e30d6-8fc8-4e88-8c50-ec9a55d42a69")
-		)
-		(pin "27"
-			(uuid "8dc8c06f-0de7-447a-843c-3e5aaebcd8fa")
-		)
-		(pin "1"
-			(uuid "2cf0f8fe-30d4-4848-962c-e5e4d6cb659b")
-		)
-		(pin "9"
-			(uuid "2564f0f9-e83f-4bfd-85b6-3b1d8a2dbccd")
-		)
-		(pin "17"
-			(uuid "eceb94e4-4908-4376-bb19-4b6fcd5f246c")
-		)
-		(pin "15"
-			(uuid "0d374159-32e4-4f35-88d4-4fc0873c2b04")
-		)
-		(pin "19"
-			(uuid "b9124090-5a80-46b9-ad28-b21ff464ff7d")
-		)
-		(pin "25"
-			(uuid "00b5fdc6-31cd-41c0-98fe-9baaa448bd17")
-		)
-		(pin "29"
-			(uuid "67db48d0-17a4-46f9-acf6-079cd001ffc6")
-		)
-		(pin "31"
-			(uuid "4ee5bf74-d525-4be1-801d-42594f3e3850")
-		)
-		(pin "33"
-			(uuid "3768e327-eaaf-4ae7-9cdb-0f5dc977567a")
-		)
-		(pin "2"
-			(uuid "3c59f352-8653-4d71-9cc3-4daae4d3b826")
-		)
-		(pin "10"
-			(uuid "0d90453b-6a1a-4aee-8db6-40312787ba73")
-		)
-		(pin "4"
-			(uuid "6efaa3f6-b2b1-42f0-a36a-bae703bb5a36")
-		)
-		(pin "8"
-			(uuid "93ce205e-23f8-427f-bccd-39fb173a057f")
-		)
-		(pin "6"
-			(uuid "09d6c24c-9da9-49d7-b4b0-aba3f643d723")
-		)
-		(pin "12"
-			(uuid "df6a7311-6866-48a1-8a55-72dd0c032726")
-		)
-		(pin "16"
-			(uuid "7991fd99-5fce-4a1c-84bb-aed425dbaa9e")
-		)
-		(pin "22"
-			(uuid "e698457f-36a2-4391-9ed1-91d2de69be2d")
-		)
-		(pin "24"
-			(uuid "47508cc9-e072-4e2a-b86e-83c2fb777e21")
-		)
-		(pin "26"
-			(uuid "35ec28ce-f1c7-4742-a645-e15723b995c0")
-		)
-		(pin "28"
-			(uuid "be07eee3-139b-4f73-982f-28845bdb762b")
-		)
-		(pin "30"
-			(uuid "3d224c8b-073d-4e0e-90c0-83916760e7ec")
-		)
-		(pin "18"
-			(uuid "f7f4078f-9f3d-479a-9087-624155bb3bb7")
-		)
-		(pin "20"
-			(uuid "09012e59-965e-45e1-b3fc-cb9918f95f1a")
-		)
-		(pin "34"
-			(uuid "ebc54b35-acf9-4a13-b19c-3317f8d20448")
-		)
-		(pin "14"
-			(uuid "640cdfd8-e9b5-4bb5-a4a6-bed73e66ce4f")
-		)
-		(pin "32"
-			(uuid "8b26e2ce-cac2-491f-b9e7-c27720ace961")
-		)
-		(instances
-			(project ""
-				(path "/a351af57-4353-47da-9f45-7393de572768/6e291d34-e508-4d3b-a2e9-20acfef2b928"
-					(reference "J4")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -6376,7 +6376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1008e13-e12c-4ab4-8e18-f121f240332b")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0122"
 			(at 57.15 151.13 0)
 			(effects
 				(font
@@ -6426,7 +6426,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/6e291d34-e508-4d3b-a2e9-20acfef2b928"
-					(reference "#PWR0118")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -6442,7 +6442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7127a58-54fe-4791-b6ce-f23e8601d15f")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0121"
 			(at 35.56 151.13 0)
 			(effects
 				(font
@@ -6492,7 +6492,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/6e291d34-e508-4d3b-a2e9-20acfef2b928"
-					(reference "#PWR0117")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -6508,7 +6508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc65a7cc-afd8-40f2-9fa7-a2d563b42ddf")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0123"
 			(at 88.9 151.13 0)
 			(effects
 				(font
@@ -6558,7 +6558,7 @@
 		(instances
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/6e291d34-e508-4d3b-a2e9-20acfef2b928"
-					(reference "#PWR0119")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
