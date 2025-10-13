@@ -1,4 +1,4 @@
-26785781343869495
+26789302195468694
 Allegro MicroSystems
 QFN-24-1EP_4x4mm_P0.5mm_EP2.75x2.75mm_ThermalVias
 QFN, 24 Pin (https://www.infineon.com/dgdl/Infineon-EZ-PD_BCR_Datasheet_USB_Type-C_Port_Controller_for_Power_Sinks-DataSheet-v03_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ee7ce9d70ad), generated with kicad-footprint-generator ipc_noLead_generator.py
@@ -106596,12 +106596,26 @@ Varistor VF
 2
 2
 Vishay Siliconix
+SI3474DV-T1-BE3
+TSOP-6 package (comparable to TSOT-23), https://www.vishay.com/docs/71200/71200.pdf
+Jedec MO-193C TSOP-6L
+0
+6
+6
+Vishay Siliconix
 SISS65DN-T1-GE3
 PowerPAK 1212-8 Single (https://www.vishay.com/docs/71656/ppak12128.pdf, https://www.vishay.com/docs/72597/72597.pdf)
 Vishay PowerPAK 1212-8 Single
 0
 8
 8
+Vishay Siliconix
+SQM120P06-07L_GE3
+TO-263/D2PAK/DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
+D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
+0
+29
+3
 Winbond Electronics
 W25Q128JVSIQ
 SOIC, 8 Pin (JEITA/EIAJ ED-7311-19 variation 08-001-BBA and Atmel/Microchip, 208 mils width, https://www.jeita.or.jp/japanese/standard/book/ED-7311-19/#target/page_no=21, https://ww1.microchip.com/downloads/en/DeviceDoc/20005045C.pdf#page=23, https://ww1.microchip.com/downloads/en/DeviceDoc/doc2535.pdf#page=162), generated with kicad-footprint-generator ipc_gullwing_generator.py
