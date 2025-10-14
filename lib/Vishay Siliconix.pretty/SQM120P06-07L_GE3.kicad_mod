@@ -265,7 +265,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at -1.25 -3.75)
-		(size 0.6 0.6)
+		(size 0.65 0.65)
 		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
@@ -274,7 +274,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at -1.25 -1.25)
-		(size 0.6 0.6)
+		(size 0.65 0.65)
 		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
@@ -283,7 +283,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at -1.25 1.25)
-		(size 0.6 0.6)
+		(size 0.65 0.65)
 		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
@@ -292,7 +292,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at -1.25 3.75)
-		(size 0.6 0.6)
+		(size 0.65 0.65)
 		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
@@ -301,7 +301,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at 0 -2.5)
-		(size 0.6 0.6)
+		(size 0.65 0.65)
 		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
@@ -310,7 +310,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at 0 0)
-		(size 0.6 0.6)
+		(size 0.65 0.65)
 		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
@@ -319,7 +319,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at 0 2.5)
-		(size 0.6 0.6)
+		(size 0.65 0.65)
 		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
@@ -328,7 +328,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at 1.25 -3.75)
-		(size 0.6 0.6)
+		(size 0.65 0.65)
 		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
@@ -337,7 +337,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at 1.25 -1.25)
-		(size 0.6 0.6)
+		(size 0.65 0.65)
 		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
@@ -346,7 +346,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at 1.25 1.25)
-		(size 0.6 0.6)
+		(size 0.65 0.65)
 		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
@@ -355,7 +355,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at 1.25 3.75)
-		(size 0.6 0.6)
+		(size 0.65 0.65)
 		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
@@ -378,7 +378,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at 2.5 -2.5)
-		(size 0.6 0.6)
+		(size 0.65 0.65)
 		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
@@ -387,7 +387,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at 2.5 0)
-		(size 0.6 0.6)
+		(size 0.65 0.65)
 		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
@@ -396,7 +396,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at 2.5 2.5)
-		(size 0.6 0.6)
+		(size 0.65 0.65)
 		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
@@ -405,7 +405,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at 3.75 -3.75)
-		(size 0.6 0.6)
+		(size 0.65 0.65)
 		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
@@ -414,7 +414,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at 3.75 -1.25)
-		(size 0.6 0.6)
+		(size 0.65 0.65)
 		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
@@ -423,7 +423,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at 3.75 1.25)
-		(size 0.6 0.6)
+		(size 0.65 0.65)
 		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
@@ -432,7 +432,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at 3.75 3.75)
-		(size 0.6 0.6)
+		(size 0.65 0.65)
 		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
@@ -441,7 +441,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at 4.962343 -2.539356)
-		(size 0.6 0.6)
+		(size 0.65 0.65)
 		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
@@ -450,7 +450,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at 5 0)
-		(size 0.6 0.6)
+		(size 0.65 0.65)
 		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
@@ -459,7 +459,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at 5 2.5)
-		(size 0.6 0.6)
+		(size 0.65 0.65)
 		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")

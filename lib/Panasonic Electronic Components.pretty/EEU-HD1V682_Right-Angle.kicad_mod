@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "EEU-HD1V682_Right-Angle"
-		(at 3.75 10.25 0)
+		(at 2.24 -12.685 0)
 		(layer "F.Fab")
 		(uuid "c15e960e-0961-4cde-b376-de935125f72b")
 		(effects
@@ -92,8 +92,19 @@
 		(layer "F.Fab")
 		(uuid "6b6c64da-7944-4121-98a8-2559df9c22fe")
 	)
+	(fp_rect
+		(start -4.5 -1.55)
+		(end 13.5 40.75)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "44bf45ba-3049-4d9d-be85-c1975ae1ec99")
+	)
 	(fp_text user "${REFERENCE}"
-		(at 3.46 8.41 0)
+		(at 1.95 -14.525 0)
 		(layer "F.Fab")
 		(uuid "841c949c-28e3-451c-9150-50e9e41805b4")
 		(effects

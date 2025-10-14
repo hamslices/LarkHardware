@@ -6,18 +6,18 @@
 	(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 	(tags "Diode SOD523")
 	(property "Reference" "REF**"
-		(at 0 -1.3 0)
+		(at 0.35 -1.325 0)
 		(layer "F.SilkS")
 		(uuid "85e6cb94-8f48-4474-bea9-9e915a7384f0")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.8 0.8)
 				(thickness 0.15)
 			)
 		)
 	)
 	(property "Value" "ESD5Z3.3T1G"
-		(at 0 1.4 0)
+		(at -2.65 0.025 90)
 		(layer "F.Fab")
 		(uuid "3b12deaa-192e-45ab-a562-5d84812835c0")
 		(effects
@@ -55,8 +55,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.26 -0.6)
-		(end -1.26 0.6)
+		(start -1.2 -0.6)
+		(end -1.2 0.6)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -66,7 +66,7 @@
 	)
 	(fp_line
 		(start 0.7 -0.6)
-		(end -1.26 -0.6)
+		(end -1.2 -0.6)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -76,7 +76,7 @@
 	)
 	(fp_line
 		(start 0.7 0.6)
-		(end -1.26 0.6)
+		(end -1.2 0.6)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -85,18 +85,18 @@
 		(uuid "6da7af1c-3832-497c-8db3-e16896ddf04b")
 	)
 	(fp_line
-		(start -1.25 -0.7)
-		(end 1.25 -0.7)
+		(start -1.325 -0.725)
+		(end 1.25 -0.725)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "8570c008-5e21-4e39-8817-17f2af1b426e")
+		(uuid "4b50cf6a-9f89-4939-bde3-ae1adf0a7719")
 	)
 	(fp_line
-		(start -1.25 0.7)
-		(end -1.25 -0.7)
+		(start -1.325 0.725)
+		(end -1.325 -0.725)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -105,8 +105,8 @@
 		(uuid "03714169-860e-49ac-9a5e-f4796ad09ad6")
 	)
 	(fp_line
-		(start 1.25 -0.7)
-		(end 1.25 0.7)
+		(start 1.25 -0.725)
+		(end 1.25 0.725)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -115,14 +115,14 @@
 		(uuid "75609d4b-a759-4da9-837b-70441210770b")
 	)
 	(fp_line
-		(start 1.25 0.7)
-		(end -1.25 0.7)
+		(start 1.25 0.725)
+		(end -1.325 0.725)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "baa73ef0-7272-40c8-ab0b-2ca1f16ae00b")
+		(uuid "b84c9e7a-5440-4f0a-9c8d-1f092a4aec70")
 	)
 	(fp_line
 		(start -0.65 -0.45)
@@ -225,13 +225,13 @@
 		(uuid "31ae592d-86ae-4a90-899c-794e29ac47fa")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -1.3 0)
+		(at -1.625 0 90)
 		(layer "F.Fab")
 		(uuid "241b20e4-5936-4914-80ba-13edfe03d004")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.4 0.4)
+				(thickness 0.06)
 			)
 		)
 	)

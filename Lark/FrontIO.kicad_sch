@@ -1900,7 +1900,7 @@
 		)
 		(uuid "08219ea7-82a9-471e-9d27-d87a1140f79e")
 	)
-	(label "BTN_2"
+	(label "BTN_1"
 		(at 66.04 165.1 180)
 		(effects
 			(font

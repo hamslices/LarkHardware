@@ -3578,7 +3578,7 @@
 		)
 		(uuid "711b4958-bd29-4b0c-82dd-e208b0cce0e6")
 	)
-	(label "USB_M"
+	(label "USB_N"
 		(at 87.63 107.95 0)
 		(effects
 			(font
@@ -3628,7 +3628,7 @@
 		)
 		(uuid "bbcf8424-46f2-4b3e-8525-c2e4e4bff2b1")
 	)
-	(label "USB_M"
+	(label "USB_N"
 		(at 63.5 55.88 180)
 		(effects
 			(font
