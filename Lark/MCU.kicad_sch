@@ -5049,6 +5049,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 120.65) (xy 149.86 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69aa3f70-941b-41c2-a1c5-353586c60475")
+	)
+	(wire
+		(pts
 			(xy 256.54 53.34) (xy 256.54 57.15)
 		)
 		(stroke
@@ -5366,6 +5376,16 @@
 			(type default)
 		)
 		(uuid "94af6cd7-04a8-47d7-b44c-f1f0e3c1ac48")
+	)
+	(wire
+		(pts
+			(xy 130.81 123.19) (xy 149.86 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c873f9-630f-4235-aa7c-55e43a271e79")
 	)
 	(wire
 		(pts
@@ -6253,6 +6273,17 @@
 		)
 		(uuid "48197534-7024-46eb-80d4-9edaf81f8b1e")
 	)
+	(hierarchical_label "BTN2"
+		(shape input)
+		(at 149.86 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "498252be-5257-4ff3-be08-2e25b16e0ef9")
+	)
 	(hierarchical_label "PAPER"
 		(shape input)
 		(at 149.86 85.09 0)
@@ -6377,6 +6408,17 @@
 			(justify right)
 		)
 		(uuid "8b2f5d22-f0d8-4310-ace3-9ad411f4b184")
+	)
+	(hierarchical_label "BTN1"
+		(shape input)
+		(at 149.86 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "955d5a96-6af6-475d-b2eb-451bd1625dc5")
 	)
 	(hierarchical_label "{slash}STB2"
 		(shape output)

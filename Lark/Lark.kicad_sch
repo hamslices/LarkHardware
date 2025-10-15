@@ -205,6 +205,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 73.66) (xy 105.41 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b2573b8-3080-4a39-baae-0eef4362cf8f")
+	)
+	(wire
+		(pts
 			(xy 96.52 100.33) (xy 105.41 100.33)
 		)
 		(stroke
@@ -352,6 +362,16 @@
 			(type default)
 		)
 		(uuid "d72ff8f8-3344-4982-beba-19699c32ed9c")
+	)
+	(wire
+		(pts
+			(xy 96.52 76.2) (xy 105.41 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d97e3bdf-fb4c-442a-9296-ad8d3623993b")
 	)
 	(wire
 		(pts
@@ -1019,6 +1039,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "BTN1" input
+			(at 105.41 73.66 180)
+			(uuid "34c39288-aa9b-45f5-9b9d-32de930e1fa3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN2" input
+			(at 105.41 76.2 180)
+			(uuid "a7399bc9-32d3-420b-ab5d-17d9c3f06e5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
