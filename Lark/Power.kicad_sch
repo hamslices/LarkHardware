@@ -8930,7 +8930,7 @@
 				)
 			)
 		)
-		(property "Value" "8A Slow Blow"
+		(property "Value" "10A Slow Blow"
 			(at 48.26 33.274 90)
 			(effects
 				(font
@@ -8965,7 +8965,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "3413.0326.22"
+		(property "MPN" "3413.0328.22"
 			(at 60.96 35.56 0)
 			(effects
 				(font
