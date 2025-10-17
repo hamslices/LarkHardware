@@ -267,7 +267,7 @@
 	)
 	(pad "7" thru_hole circle
 		(at -0.5 -0.95)
-		(size 0.65 0.65)
+		(size 0.6 0.6)
 		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -275,7 +275,7 @@
 	)
 	(pad "7" thru_hole circle
 		(at -0.5 0.95)
-		(size 0.65 0.65)
+		(size 0.6 0.6)
 		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -283,7 +283,7 @@
 	)
 	(pad "7" thru_hole circle
 		(at 0 0)
-		(size 0.65 0.65)
+		(size 0.6 0.6)
 		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -291,19 +291,19 @@
 	)
 	(pad "7" smd rect
 		(at 0 0)
-		(size 1.7 2.6)
+		(size 1.6 2.6)
 		(layers "F.Cu" "F.Mask")
 		(uuid "c31ee564-d33e-4e2b-878f-c67f409142c3")
 	)
 	(pad "7" smd rect
 		(at 0 0)
-		(size 1.7 2.6)
+		(size 1.6 2.6)
 		(layers "B.Cu" "B.Mask")
 		(uuid "6234d931-d3b9-4a3a-b0b0-e2121c623c9e")
 	)
 	(pad "7" thru_hole circle
 		(at 0.5 -0.95)
-		(size 0.65 0.65)
+		(size 0.6 0.6)
 		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -311,7 +311,7 @@
 	)
 	(pad "7" thru_hole circle
 		(at 0.5 0.95)
-		(size 0.65 0.65)
+		(size 0.6 0.6)
 		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)

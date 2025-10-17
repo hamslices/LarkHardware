@@ -7,7 +7,7 @@
 	(title_block
 		(title "Lark Print Engine")
 		(date "2025-10-08")
-		(rev "01.00.01")
+		(rev "01.00.00")
 		(comment 1 "Thermal Print Engine")
 		(comment 2 "Designer: HamSlices")
 		(comment 3 "The Lark Project")
@@ -2285,7 +2285,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 143.51) (xy 20.32 143.51)
+			(xy 29.21 143.51) (xy 20.32 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2484,7 +2484,7 @@
 		(uuid "7ff17672-c521-40d8-8f5b-8c6c80414435")
 	)
 	(label "VREF"
-		(at 26.67 143.51 180)
+		(at 29.21 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2673,7 +2673,7 @@
 		)
 		(uuid "dc77b187-a84c-4a0a-92b9-f7d0e1724719")
 	)
-	(hierarchical_label "VERF"
+	(hierarchical_label "VREF"
 		(shape input)
 		(at 113.03 93.98 180)
 		(effects

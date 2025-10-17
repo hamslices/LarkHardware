@@ -7,7 +7,7 @@
 	(title_block
 		(title "Lark Print Engine")
 		(date "2025-10-08")
-		(rev "01.00.01")
+		(rev "01.00.00")
 		(comment 1 "Thermal Print Engine")
 		(comment 2 "Designer: HamSlices")
 		(comment 3 "The Lark Project")
@@ -638,7 +638,7 @@
 				(justify left)
 			)
 		)
-		(pin "VERF" input
+		(pin "VREF" input
 			(at 138.43 113.03 180)
 			(uuid "cd93f8a2-1579-4847-9c71-1dda284da1b8")
 			(effects

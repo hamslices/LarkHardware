@@ -7,7 +7,7 @@
 	(title_block
 		(title "Lark Print Engine")
 		(date "2025-10-08")
-		(rev "01.00.01")
+		(rev "01.00.00")
 		(comment 1 "Thermal Print Engine")
 		(comment 2 "Designer: HamSlices")
 		(comment 3 "The Lark Project")
@@ -4556,6 +4556,150 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f113fa9f-9454-46ed-b116-5336423685b1")
+	)
+	(no_connect
+		(at 130.81 172.72)
+		(uuid "0524797a-fdac-4d25-8911-e9b3d50b8e14")
+	)
+	(no_connect
+		(at 85.09 81.28)
+		(uuid "05a1c12c-ade1-41e4-a292-926949ea367a")
+	)
+	(no_connect
+		(at 85.09 76.2)
+		(uuid "06446fb8-bbfc-47be-95bd-2a5950a7c95f")
+	)
+	(no_connect
+		(at 85.09 123.19)
+		(uuid "0d1177d0-296c-4102-ac19-fdb6b2c956c9")
+	)
+	(no_connect
+		(at 130.81 142.24)
+		(uuid "12cd9534-9b03-40c8-8e9e-3721c48e49a9")
+	)
+	(no_connect
+		(at 130.81 92.71)
+		(uuid "25b5d72f-45cc-45ba-836d-10fab63861b4")
+	)
+	(no_connect
+		(at 85.09 118.11)
+		(uuid "2f5f7332-df1c-4bdb-b46c-a6e8151f9145")
+	)
+	(no_connect
+		(at 85.09 78.74)
+		(uuid "332b4977-c735-44c7-893c-0a4a5638b381")
+	)
+	(no_connect
+		(at 130.81 46.99)
+		(uuid "34a68fe3-a085-4302-957f-1832b5a9feef")
+	)
+	(no_connect
+		(at 85.09 153.67)
+		(uuid "400cc8a5-9c6a-402d-ac95-4d876a40903f")
+	)
+	(no_connect
+		(at 130.81 144.78)
+		(uuid "468c11f8-f011-4be1-8f38-512c8512b184")
+	)
+	(no_connect
+		(at 85.09 156.21)
+		(uuid "4ea7d0e7-86c9-478e-97ec-50aa9dd59a30")
+	)
+	(no_connect
+		(at 85.09 86.36)
+		(uuid "559babcb-e0c6-457e-aecf-6511dd625b52")
+	)
+	(no_connect
+		(at 130.81 31.75)
+		(uuid "56fecbfb-d30d-4482-be07-25fbe6ee1608")
+	)
+	(no_connect
+		(at 130.81 118.11)
+		(uuid "5d94dc55-8cfa-4941-975c-f8cd2620761a")
+	)
+	(no_connect
+		(at 130.81 115.57)
+		(uuid "85d0ad33-1d48-4417-81b8-f315acf755fd")
+	)
+	(no_connect
+		(at 130.81 175.26)
+		(uuid "86781512-f0c4-47cd-bc0c-1743dbe59017")
+	)
+	(no_connect
+		(at 85.09 83.82)
+		(uuid "8bcd120f-446a-4dae-92a0-478309e7d729")
+	)
+	(no_connect
+		(at 130.81 170.18)
+		(uuid "8c3ed6cc-f131-4092-92e1-b8d40a8cf5ff")
+	)
+	(no_connect
+		(at 130.81 139.7)
+		(uuid "8e855b86-bd77-4ab6-be36-f12fcd75b460")
+	)
+	(no_connect
+		(at 130.81 167.64)
+		(uuid "91778bf4-85a7-4d2b-b705-2d7b790164c8")
+	)
+	(no_connect
+		(at 85.09 128.27)
+		(uuid "9890a966-5548-4626-8289-5b4488e59fe1")
+	)
+	(no_connect
+		(at 130.81 107.95)
+		(uuid "a9b3169c-7b4f-424b-a248-aa2b7c94d9bc")
+	)
+	(no_connect
+		(at 130.81 36.83)
+		(uuid "aa37e70d-1776-4acf-bbc8-a1410be99a84")
+	)
+	(no_connect
+		(at 85.09 88.9)
+		(uuid "ac023dc2-b10f-47d3-9432-0e829d27a176")
+	)
+	(no_connect
+		(at 130.81 105.41)
+		(uuid "b0b97077-90de-40a7-b2a2-baa21b8feeda")
+	)
+	(no_connect
+		(at 130.81 137.16)
+		(uuid "b1ee3659-6730-47ea-b2d7-52ac1e688d70")
+	)
+	(no_connect
+		(at 85.09 106.68)
+		(uuid "ba6d92df-c4a2-4277-9ffe-b0b7b81be057")
+	)
+	(no_connect
+		(at 130.81 39.37)
+		(uuid "c3fda718-e2f1-49aa-96f1-5a187abde65c")
+	)
+	(no_connect
+		(at 85.09 73.66)
+		(uuid "c5d1bd0f-a852-4299-80f5-720737637277")
+	)
+	(no_connect
+		(at 130.81 34.29)
+		(uuid "c8d2cf9c-2ab9-495f-a2b6-6465d3778350")
+	)
+	(no_connect
+		(at 130.81 113.03)
+		(uuid "d35e2361-5885-4c53-a5b9-d73eea3c6f60")
+	)
+	(no_connect
+		(at 85.09 133.35)
+		(uuid "d4a3baad-0ee0-494a-97ac-35bf8b27ac4f")
+	)
+	(no_connect
+		(at 130.81 95.25)
+		(uuid "e3832919-18d3-4cbc-b926-6c5f4414c6aa")
+	)
+	(no_connect
+		(at 130.81 69.85)
+		(uuid "f014b853-21be-49fa-a1d3-7eeb7703cd74")
+	)
+	(no_connect
+		(at 130.81 162.56)
+		(uuid "f048844a-1965-4f60-9b2c-59f2e93098df")
 	)
 	(wire
 		(pts

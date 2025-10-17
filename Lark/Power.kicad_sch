@@ -7,7 +7,7 @@
 	(title_block
 		(title "Lark Print Engine")
 		(date "2025-10-08")
-		(rev "01.00.01")
+		(rev "01.00.00")
 		(comment 1 "Thermal Print Engine")
 		(comment 2 "Designer: HamSlices")
 		(comment 3 "The Lark Project")
@@ -466,7 +466,7 @@
 						)
 					)
 				)
-				(pin open_collector line
+				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
 					(name "C"
@@ -484,7 +484,7 @@
 						)
 					)
 				)
-				(pin open_emitter line
+				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
 					(name "E"
@@ -873,6 +873,232 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MMBT2222A-7-F_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.588 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MMBT2222A-7-F"
+				(at 13.208 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diodes Incorporated:MMBT2222A-7-F"
+				(at -0.508 -24.892 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4849/DS_31_MMBT2222A.pdf"
+				(at -0.762 -21.844 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bipolar (BJT) Transistor NPN 40 V 600 mA 300MHz 310 mW Surface Mount SOT-23-3"
+				(at 0 -19.304 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "MMBT2222A-7-F"
+				(at 13.208 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MMBT2222A-7-F_1_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -1.27) (xy 2.794 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -1.27) (xy 2.794 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MMBT2222A-7-F_1_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4268,7 +4494,7 @@
 		(uuid "330a89d5-d140-47db-bcb1-e66cf354ad60")
 	)
 	(junction
-		(at 270.51 55.88)
+		(at 274.32 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35d107dd-6042-435e-9abb-d8691eebfdab")
@@ -5205,7 +5431,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 53.34) (xy 273.05 55.88)
+			(xy 276.86 53.34) (xy 276.86 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5215,7 +5441,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 55.88) (xy 270.51 55.88)
+			(xy 276.86 55.88) (xy 274.32 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5325,7 +5551,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 53.34) (xy 270.51 55.88)
+			(xy 274.32 53.34) (xy 274.32 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5685,7 +5911,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 55.88) (xy 270.51 57.15)
+			(xy 274.32 55.88) (xy 274.32 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5962,6 +6188,16 @@
 			(type default)
 		)
 		(uuid "e6c3aa62-1093-461f-83c5-2dc09e8db211")
+	)
+	(wire
+		(pts
+			(xy 265.43 53.34) (xy 265.43 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b76ef0-7290-4399-89ef-097d01323f71")
 	)
 	(wire
 		(pts
@@ -10146,6 +10382,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 265.43 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a2dc48e-b176-4e79-9d45-c0bed1b17d52")
+		(property "Reference" "#FLG07"
+			(at 265.43 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 265.43 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 265.43 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0371aa86-6197-4005-a358-0d6c9b3ca843")
+		)
+		(instances
+			(project "Lark"
+				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 218.44 152.4 0)
 		(unit 1)
@@ -10393,6 +10696,7 @@
 		)
 	)
 	(symbol
+		(lib_name "MMBT2222A-7-F_1")
 		(lib_id "Diodes Incorporated:MMBT2222A-7-F")
 		(at 215.9 144.78 0)
 		(unit 1)
@@ -10646,7 +10950,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 270.51 53.34 0)
+		(at 274.32 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10655,7 +10959,7 @@
 		(fields_autoplaced yes)
 		(uuid "36674519-eb3b-431e-b5ce-336aa1d51ff4")
 		(property "Reference" "#PWR047"
-			(at 270.51 57.15 0)
+			(at 274.32 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10664,7 +10968,7 @@
 			)
 		)
 		(property "Value" "+4V"
-			(at 270.51 48.26 0)
+			(at 274.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10672,7 +10976,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 53.34 0)
+			(at 274.32 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10681,7 +10985,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 53.34 0)
+			(at 274.32 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10690,7 +10994,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 270.51 53.34 0)
+			(at 274.32 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12604,6 +12908,72 @@
 			(project "Lark"
 				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 265.43 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "978d6353-87d1-43b6-ac62-0a504f2c48a7")
+		(property "Reference" "#PWR0186"
+			(at 265.43 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 265.43 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 265.43 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c205e0f-8d6b-4a7d-92ae-6505dc4a65fa")
+		)
+		(instances
+			(project "Lark"
+				(path "/a351af57-4353-47da-9f45-7393de572768/e2a48b8e-2a6a-42c1-ac2d-aa8bef5f3773"
+					(reference "#PWR0186")
 					(unit 1)
 				)
 			)
@@ -14535,7 +14905,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 273.05 53.34 0)
+		(at 276.86 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14544,7 +14914,7 @@
 		(fields_autoplaced yes)
 		(uuid "e887d891-78cf-435a-b843-4f189fb4ebb0")
 		(property "Reference" "#FLG02"
-			(at 273.05 51.435 0)
+			(at 276.86 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14553,7 +14923,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 273.05 48.26 0)
+			(at 276.86 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14562,7 +14932,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 53.34 0)
+			(at 276.86 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14571,7 +14941,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 273.05 53.34 0)
+			(at 276.86 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14580,7 +14950,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 273.05 53.34 0)
+			(at 276.86 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15293,7 +15663,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 270.51 57.15 180)
+		(at 274.32 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15301,7 +15671,7 @@
 		(dnp no)
 		(uuid "f8241c9c-4a31-4a78-becc-643948837640")
 		(property "Reference" "TP9"
-			(at 268.986 62.992 0)
+			(at 272.796 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15310,7 +15680,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 268.986 65.532 0)
+			(at 272.796 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15320,7 +15690,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 265.43 57.15 0)
+			(at 269.24 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15329,7 +15699,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 265.43 57.15 0)
+			(at 269.24 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15338,7 +15708,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 270.51 57.15 0)
+			(at 274.32 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
