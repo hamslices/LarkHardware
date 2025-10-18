@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Molex")(type "KiCad")(uri "${LARKLIB_3D}/Molex.pretty")(options "")(descr ""))
+  (lib (name "Sullins Connector Solutions")(type "KiCad")(uri "${LARKLIB_3D}/Sullins Connector Solutions.pretty")(options "")(descr ""))
+)

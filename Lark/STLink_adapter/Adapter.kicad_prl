@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "FrontIO.kicad_prl",
+    "filename": "Adapter.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
