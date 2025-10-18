@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Molex")(type "KiCad")(uri "${LARKLIB_3D}/Molex.kicad_sym")(options "")(descr ""))
+  (lib (name "QT Brightek (QTB)")(type "KiCad")(uri "${LARKLIB_3D}/QT Brightek (QTB).kicad_sym")(options "")(descr ""))
+  (lib (name "Same Sky")(type "KiCad")(uri "${LARKLIB_3D}/Same Sky.kicad_sym")(options "")(descr ""))
+)

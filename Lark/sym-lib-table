@@ -21,4 +21,6 @@
   (lib (name "Stackpole Electronics Inc")(type "KiCad")(uri "${LARKLIB_3D}/Stackpole Electronics Inc.kicad_sym")(options "")(descr ""))
   (lib (name "Winbond Electronics")(type "KiCad")(uri "${LARKLIB_3D}/Winbond Electronics.kicad_sym")(options "")(descr ""))
   (lib (name "Littelfuse Inc")(type "KiCad")(uri "${LARKLIB_3D}/Littelfuse Inc.kicad_sym")(options "")(descr ""))
+  (lib (name "QT Brightek (QTB)")(type "KiCad")(uri "${LARKLIB_3D}/QT Brightek (QTB).kicad_sym")(options "")(descr ""))
+  (lib (name "Same Sky")(type "KiCad")(uri "${LARKLIB_3D}/Same Sky.kicad_sym")(options "")(descr ""))
 )

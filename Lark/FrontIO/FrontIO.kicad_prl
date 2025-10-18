@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 7,
+    "active_layer": 17,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -59,15 +59,11 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Lark.kicad_prl",
+    "filename": "FrontIO.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
-      false,
-      false,
-      false,
-      false,
       false,
       false,
       false,
@@ -89,11 +85,7 @@
       6,
       7,
       8,
-      9,
-      10,
-      11,
-      12,
-      13
+      9
     ],
     "col_widths": [
       162,
@@ -104,10 +96,6 @@
       91,
       91,
       71,
-      91,
-      91,
-      91,
-      91,
       91,
       91
     ],

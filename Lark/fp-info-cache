@@ -1,4 +1,4 @@
-26789308197326089
+26792829815023137
 Allegro MicroSystems
 QFN-24-1EP_4x4mm_P0.5mm_EP2.75x2.75mm_ThermalVias
 QFN, 24 Pin (https://www.infineon.com/dgdl/Infineon-EZ-PD_BCR_Datasheet_USB_Type-C_Port_Controller_for_Power_Sinks-DataSheet-v03_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ee7ce9d70ad), generated with kicad-footprint-generator ipc_noLead_generator.py
@@ -93764,6 +93764,13 @@ Potentiometer vertical vishay
 0
 3
 3
+QT Brightek (QTB)
+QBLP600-RGB5-3164
+
+
+0
+4
+4
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
@@ -97425,6 +97432,13 @@ LQFP QFP
 0
 100
 100
+Same Sky
+TS04-66-65-BK-100-SMT
+TS04
+SPST Button Switch
+0
+4
+4
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
