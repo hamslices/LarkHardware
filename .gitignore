@@ -1,13 +1,7 @@
 /Lark/Lark-backups
 *.bak
-Lark/\#auto_saved_files\#
-Lark/~Lark.kicad_sch.lck
-Lark/_autosave-Power.kicad_sch
-Lark/_autosave-Lark.kicad_pcb
-Lark/~_autosave-Lark.kicad_pcb.lck
-/Lark/FrontIO/FrontIO-backups
-Lark/FrontIO/~FrontIO.kicad_pcb.lck
-/Lark/STLink_adapter/Adapter-backups
 /3D
 Lark/~Lark.kicad_pcb.lck
 /Kicad Project Files/FrontIO/FrontIO-backups
+/Kicad Project Files/STLink_adapter/Adapter-backups
+/Kicad Project Files/STLink_adapter/Lark-backups
