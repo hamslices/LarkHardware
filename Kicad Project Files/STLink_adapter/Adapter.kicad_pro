@@ -494,7 +494,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../3D/Adapter.step",
+      "step": "../../3D/Adapter.step",
       "svg": "",
       "vrml": ""
     },
