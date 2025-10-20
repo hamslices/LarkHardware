@@ -1203,6 +1203,18 @@
 		)
 	)
 	(rectangle
+		(start 254 58.166)
+		(end 278.13 71.12)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0275664d-ac75-4836-8f80-87ea00d6a3ad)
+	)
+	(rectangle
 		(start 19.05 19.05)
 		(end 102.87 77.47)
 		(stroke
@@ -1238,7 +1250,7 @@
 		)
 		(uuid c717692d-5569-459d-aee3-b28bdb4eda21)
 	)
-	(text "AUX 24V Power"
+	(text "FAN 24V Power"
 		(exclude_from_sim no)
 		(at 253.746 17.78 0)
 		(effects
@@ -1291,6 +1303,17 @@
 			)
 		)
 		(uuid "9c5aa9c6-9394-401a-8f4b-99443e3934d0")
+	)
+	(text "- Recomended Fan -\nSunon Fans\nMF50152V1-1000U-A99\n50mm x 50mm x 15.00mm\n24V, 1.01 Watts"
+		(exclude_from_sim no)
+		(at 266.192 64.516 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a200dff8-b72c-451c-aaf6-1ec6569df81f")
 	)
 	(text "I2C Breakout"
 		(exclude_from_sim no)
