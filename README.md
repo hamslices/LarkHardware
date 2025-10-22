@@ -8,6 +8,8 @@ This repository contains the complete hardware design files for the Lark, a cont
 
 The goal of this project is to provide a fully open-source hardware solution for driving this excellent thermal printer, suitable for custom projects, prototyping, or integration into larger systems.
 
+![alt text](https://github.com/hamslices/LarkHardware/blob/main/img/Lark%20PCB/Lark_tilt.png?raw=true)
+
 ## Repository Contents
 
 This repository includes all the necessary resources to build and case the hardware:
