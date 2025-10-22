@@ -1,0 +1,2 @@
+Durring testing I have found that the TR160MB240-01E12 VI
+PSU will output 8.47A of continuous current before over current shutdown at > 8.5A

@@ -1,0 +1,73 @@
+connectors:
+  J1:
+    pincount: 34
+    pinlabels: [VH, VH, /STB6, DI, /STB4, /STB5, GND, HTMP, GND, GND, /STB3, GND, /STB1, /STB2, CLK, VDD, DO, /LAT, VH, VH, SW, GND, PHE, PHK, PHK, VSEN, VSEN, PHE, MT_B, MT_/B, MT_/A, MT_A, MTMP, GND]
+    type: JST, PHDR-34VS
+    subtype: female
+    manufacturer: '<a href="https://www.jst.com/">JST</a>'
+    mpn: PHDR-34VS
+    supplier: '<a href="https://www.digikey.com/">Digikey</a>'
+    spn: 455-1182-ND
+    image:
+      src: ./img/PHDR-34VS.jpg
+      width: 200       # range: 1~65535; unit: points
+      height: 200      # range: 1~65535; unit: points
+    # add a list of additional components to a part (shown in graph)
+    additional_components:
+      - type: Crimp # short identifier used in graph
+        subtype: CONN SOCKET 24-28AWG CRIMP TIN # extra information added to type in bom
+        qty_multiplier: populated # multipier for quantity (number of populated pins)
+        manufacturer: '<a href="https://www.jst.com/">JST</a>'
+        mpn: SPHD-002T-P0.5 # set manufacturer part number
+        supplier: '<a href="https://www.digikey.com/">Digikey</a>'
+        spn: 455-1313CT-ND
+  X1:
+    pincount: 34
+    pinlabels: [MTMP, GND, MT_/A, MT_A, MT_B, MT_/B, VSEN, PHE, PHK, VSEN, PHE, PHK, SW, GND, VH, VH, DO, /LAT, CLK, VDD, /STB1, /STB2, /STB3, GND, GND, GND, GND, HTMP, /STB4, /STB5, /STB6, DI, VH, VH]
+    type: JST, PHDR-34VS
+    subtype: female
+    manufacturer: '<a href="https://www.jst.com/">JST</a>'
+    mpn: PHDR-34VS
+    supplier: '<a href="https://www.digikey.com/">Digikey</a>'
+    spn: 455-1182-ND
+    image:
+      src: ./img/PHDR-34VS.jpg
+      width: 200       # range: 1~65535; unit: points
+      height: 200      # range: 1~65535; unit: points    
+    # add a list of additional components to a part (shown in graph)
+    additional_components:
+      - type: Crimp # short identifier used in graph
+        subtype: CONN SOCKET 24-28AWG CRIMP TIN # extra information added to type in bom
+        qty_multiplier: populated # multipier for quantity (number of populated pins)
+        manufacturer: '<a href="https://www.jst.com/">JST</a>'
+        mpn: SPHD-002T-P0.5 # set manufacturer part number
+        supplier: '<a href="https://www.digikey.com/">Digikey</a>'
+        spn: 455-1313CT-ND
+
+cables:
+  W1:
+    wirecount: 34
+    length: 6 in
+    gauge: 24 AWG
+    # colors: [BK,BK,BK,BK,BK,BK,BK,BK,BK,BK,BK,BK,BK,BK,BK,BK,BK,BK,BK,BK,BK,BK,BK,BK,BK,BK,BK,BK,BK,BK,BK,BK,BK,BK] # color = BLACK
+    color: BK
+    manufacturer: '<a href="https://www.cnctech.us/">CNC Tech</a>'
+    mpn: 3132-24-1-0500-001-1-TS
+    supplier: '<a href="https://www.digikey.com/">Digikey</a>'
+    spn: CN119B-50-ND
+    image:
+      src: ./img/1175.jpg
+      width: 200       # range: 1~65535; unit: points
+      height: 200      # range: 1~65535; unit: points     
+
+connections:
+  -
+    # non-sequential wiring:
+    - J1: [33,34,31,32,29,30,27,28,25,26,23,24,21,22,19,20,17,18,15,16,13,14,11,12,9,10,7,8,5,6,3,4,1,2]
+    - W1: [1-34]
+    - X1: [1-34]
+    
+tweak:
+  override:
+    graph:
+      ranksep: '5' # Larger horizontal separation between nodes    

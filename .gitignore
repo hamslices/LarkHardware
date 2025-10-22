@@ -1,4 +1,4 @@
-# Temporary files
+# Kicad Temporary files
 *.000
 *.bak
 *.bck
@@ -18,9 +18,11 @@ fp-info-cache
 
 # Large binary files
 *.step
+*.stp
 
 /3D
 /Kicad Project Files/STLink_adapter/production
 /Kicad Project Files/FrontIO/production
 /Kicad Project Files/Lark/production
 
+/Private_Docs
