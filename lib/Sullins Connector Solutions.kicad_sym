@@ -52,6 +52,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "SFH11-PBPC-D10-ST-BK"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "SFH11-PBPC-D10-ST-BK_0_1"
 			(polyline
 				(pts
