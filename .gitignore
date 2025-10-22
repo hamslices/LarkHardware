@@ -1,13 +1,17 @@
-/Lark/Lark-backups
 *.bak
+*.step
+
 /3D
-Lark/~Lark.kicad_pcb.lck
+
 /Kicad Project Files/FrontIO/FrontIO-backups
 /Kicad Project Files/STLink_adapter/Adapter-backups
 /Kicad Project Files/Lark/Lark-backups
-*.step
+
 Kicad Project Files/Lark/~Lark.kicad_pcb.lck
 Kicad Project Files/Lark/~Lark.kicad_sch.lck
+Kicad Project Files/STLink_adapter/~Adapter.kicad_sch.lck
+
 /Kicad Project Files/STLink_adapter/production
 /Kicad Project Files/FrontIO/production
 /Kicad Project Files/Lark/production
+
