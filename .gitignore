@@ -20,11 +20,6 @@ fp-info-cache
 *.step
 
 /3D
-
-/Kicad Project Files/FrontIO/FrontIO-backups
-/Kicad Project Files/STLink_adapter/Adapter-backups
-/Kicad Project Files/Lark/Lark-backups
-
 /Kicad Project Files/STLink_adapter/production
 /Kicad Project Files/FrontIO/production
 /Kicad Project Files/Lark/production
