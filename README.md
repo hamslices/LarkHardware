@@ -10,7 +10,7 @@ The goal of this project is to provide a fully open-source hardware solution for
 
 ![alt text](https://github.com/hamslices/LarkHardware/blob/main/img/Lark%20PCB/Lark_tilt.png?raw=true)
 
-![alt text](https://github.com/hamslices/LarkHardware/blob/main/img/Demo%20Case/Mech/IMG_004.png?raw=true)
+![alt text](https://github.com/hamslices/LarkHardware/blob/main/Demo%20Case/Mech/IMG_004.png?raw=true)
 
 ## Repository Contents
 
