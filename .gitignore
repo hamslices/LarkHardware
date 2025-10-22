@@ -8,3 +8,6 @@ Lark/~Lark.kicad_pcb.lck
 *.step
 Kicad Project Files/Lark/~Lark.kicad_pcb.lck
 Kicad Project Files/Lark/~Lark.kicad_sch.lck
+/Kicad Project Files/STLink_adapter/production
+/Kicad Project Files/FrontIO/production
+/Kicad Project Files/Lark/production
