@@ -1,4 +1,21 @@
+# Temporary files
+*.000
 *.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+*-cache*
+
+# Large binary files
 *.step
 
 /3D
@@ -6,10 +23,6 @@
 /Kicad Project Files/FrontIO/FrontIO-backups
 /Kicad Project Files/STLink_adapter/Adapter-backups
 /Kicad Project Files/Lark/Lark-backups
-
-Kicad Project Files/Lark/~Lark.kicad_pcb.lck
-Kicad Project Files/Lark/~Lark.kicad_sch.lck
-Kicad Project Files/STLink_adapter/~Adapter.kicad_sch.lck
 
 /Kicad Project Files/STLink_adapter/production
 /Kicad Project Files/FrontIO/production
