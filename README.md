@@ -44,6 +44,8 @@ The 3D models are provided in STEP format and can be viewed with any compatible 
 
 The production files located in the `/Production_Files` directory are ready to be sent to a PCB manufacturer for fabrication and assembly.
 
+![alt text](https://github.com/hamslices/LarkHardware/blob/main/img/Lark%20PCB/PCB_FB.png?raw=true)
+
 ## Software / Firmware
 
 The firmware and software for the Lark controller is licensed under the **GPL v3** and is maintained in a separate repository.
