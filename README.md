@@ -10,8 +10,6 @@ The goal of this project is to provide a fully open-source hardware solution for
 
 ![alt text](https://github.com/hamslices/LarkHardware/blob/main/img/Lark%20PCB/Lark_PCB.png?raw=true)
 
-![alt text](https://github.com/hamslices/LarkHardware/blob/main/Demo%20Case/Mech/IMG_004.png?raw=true)
-
 ## Repository Contents
 
 This repository includes all the necessary resources to build and case the hardware:
@@ -20,6 +18,8 @@ This repository includes all the necessary resources to build and case the hardw
 *   **Front I/O Board**: A separate PCB for user-facing controls and connectors.
 *   **STLink-V2 Adapter**: A small adapter PCB to easily connect an STLink-V2 for programming and debugging.
 *   **3D Printable Enclosures**: Includes custom cases for the Lark board, the Front I/O board, and a test enclosure for the print mechanism itself.
+
+![alt text](https://github.com/hamslices/LarkHardware/blob/main/Demo%20Case/Mech/IMG_004.png?raw=true)
 
 ## Directory Structure
 
