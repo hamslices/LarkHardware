@@ -44,13 +44,9 @@ The 3D models are provided in STEP format and can be viewed with any compatible 
 
 The production files located in the `/Production_Files` directory are ready to be sent to a PCB manufacturer for fabrication and assembly.
 
-## Designed By
+## Software / Firmware
 
-The Lark Thermal Print Engine Controller and all associated hardware in this repository were designed by hamslices.
-
-## Software
-
-The firmware for the Lark controller is licensed under the **GPL v3** and is maintained in a separate repository.
+The firmware and software for the Lark controller is licensed under the **GPL v3** and is maintained in a separate repository.
 
 ## License
 
