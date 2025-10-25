@@ -7,7 +7,7 @@
 	(title_block
 		(title "Lark Print Engine")
 		(date "2025-10-08")
-		(rev "01.00.01")
+		(rev "01.00.02")
 		(comment 1 "Thermal Print Engine")
 		(comment 2 "Designer: HamSlices")
 		(comment 3 "The Lark Project")
@@ -205,6 +205,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 135.89) (xy 138.43 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "784b3e41-438e-4937-a45b-f861c0c44fcc")
+	)
+	(wire
+		(pts
 			(xy 96.52 73.66) (xy 105.41 73.66)
 		)
 		(stroke
@@ -342,16 +352,6 @@
 			(type default)
 		)
 		(uuid "d1000f92-dece-4282-b6cc-d88daeeaf8ff")
-	)
-	(wire
-		(pts
-			(xy 128.27 135.89) (xy 138.43 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d71cf0e1-9d95-4772-9021-59b32f4f349a")
 	)
 	(wire
 		(pts
@@ -5969,7 +5969,7 @@
 				(justify right)
 			)
 		)
-		(pin "ADC_CH1" input
+		(pin "ADC2_CH15" input
 			(at 128.27 135.89 0)
 			(uuid "8fa3987e-5960-4407-ab87-93307bfcbe3a")
 			(effects

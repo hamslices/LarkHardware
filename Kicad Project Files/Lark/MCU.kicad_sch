@@ -7,7 +7,7 @@
 	(title_block
 		(title "Lark Print Engine")
 		(date "2025-10-08")
-		(rev "01.00.01")
+		(rev "01.00.02")
 		(comment 1 "Thermal Print Engine")
 		(comment 2 "Designer: HamSlices")
 		(comment 3 "The Lark Project")
@@ -4618,6 +4618,10 @@
 		(uuid "5d94dc55-8cfa-4941-975c-f8cd2620761a")
 	)
 	(no_connect
+		(at 130.81 97.79)
+		(uuid "7e8892c5-6891-4efe-9f60-3d8cb860a153")
+	)
+	(no_connect
 		(at 130.81 115.57)
 		(uuid "85d0ad33-1d48-4417-81b8-f315acf755fd")
 	)
@@ -4668,10 +4672,6 @@
 	(no_connect
 		(at 85.09 106.68)
 		(uuid "ba6d92df-c4a2-4277-9ffe-b0b7b81be057")
-	)
-	(no_connect
-		(at 130.81 39.37)
-		(uuid "c3fda718-e2f1-49aa-96f1-5a187abde65c")
 	)
 	(no_connect
 		(at 85.09 73.66)
@@ -5783,16 +5783,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 97.79) (xy 149.86 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd54803e-fba0-47c8-ac04-83f0e597dfca")
-	)
-	(wire
-		(pts
 			(xy 256.54 100.33) (xy 267.97 100.33)
 		)
 		(stroke
@@ -6000,6 +5990,16 @@
 			(type default)
 		)
 		(uuid "f6e2270c-6589-46b2-a9d9-8bcf6b32a766")
+	)
+	(wire
+		(pts
+			(xy 130.81 39.37) (xy 149.86 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7fd546a-ba4d-494e-b8d5-041928ff5fae")
 	)
 	(wire
 		(pts
@@ -11434,9 +11434,9 @@
 		)
 		(uuid "730753bd-935f-420d-8527-b2308074c719")
 	)
-	(hierarchical_label "ADC_CH1"
+	(hierarchical_label "ADC2_CH15"
 		(shape input)
-		(at 149.86 97.79 0)
+		(at 149.86 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)

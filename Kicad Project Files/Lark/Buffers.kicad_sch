@@ -7,7 +7,7 @@
 	(title_block
 		(title "Lark Print Engine")
 		(date "2025-10-08")
-		(rev "01.00.01")
+		(rev "01.00.02")
 		(comment 1 "Thermal Print Engine")
 		(comment 2 "Designer: HamSlices")
 		(comment 3 "The Lark Project")
