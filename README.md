@@ -60,3 +60,5 @@ A full copy of the license is available in the `LICENSE` file in this repository
 
 ---
 *Lark Print Engine © HamSlices 2025*
+
+[The Lark Project](https://github.com/hamslices/The-Lark-Project)
