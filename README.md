@@ -4,6 +4,8 @@
 **Author:** HamSlices  
 **License:** CERN Open Hardware Licence v2 - Strongly Reciprocal  
 
+# (This Design Still Needs Bench Tested, WIP, waiting on boards (10/27/2025))
+
 This repository contains the complete hardware design files for the Lark, a controller board specifically designed for the **FUJITSU FTP-68EMCL112-R** 8-inch thermal print mechanism.
 
 The goal of this project is to provide a fully open-source hardware solution for driving this excellent thermal printer, suitable for custom projects, prototyping, or integration into larger systems.
